@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAT Study Runner</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">SAT Reading and Writing</p>
+        <h1>Study Runner</h1>
+        <p id="bank-summary" class="hero-copy">Loading question bank...</p>
+      </div>
+      <div class="hero-links">
+        <a class="link-chip" href="./sat-study-priorities.md">Study priorities</a>
+        <a class="link-chip" href="./sat-results.html">Enriched table</a>
+      </div>
+    </header>
+
+    <main class="main-shell">
+      <section id="loading-view" class="panel">
+        <h2>Loading</h2>
+        <p>Reading the local question bank.</p>
+      </section>
+
+      <section id="error-view" class="panel hidden" aria-live="polite">
+        <h2>Could not load the question bank</h2>
+        <p id="error-message"></p>
+        <p class="muted">This app is meant to run from GitHub Pages or another local web server, not directly from a `file://` URL.</p>
+      </section>
+
+      <section id="setup-view" class="hidden" aria-live="polite">
+        <div class="setup-grid">
+          <section class="panel">
+            <div class="panel-head">
+              <div>
+                <h2>Session Setup</h2>
+                <p class="muted">Pick a mode, size, and study focus.</p>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="group-label">Mode</span>
+              <div class="mode-grid">
+                <label class="mode-card">
+                  <input type="radio" name="session-mode" value="practice" checked>
+                  <span class="mode-title">Practice</span>
+                  <span class="mode-copy">Instant feedback after each answer.</span>
+                </label>
+                <label class="mode-card">
+                  <input type="radio" name="session-mode" value="quiz">
+                  <span class="mode-title">Quiz</span>
+                  <span class="mode-copy">Score shown at the end.</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label class="stacked-field">
+                <span class="group-label">Questions this run</span>
+                <select id="question-count"></select>
+              </label>
+
+              <label class="toggle-field">
+                <input id="shuffle-toggle" type="checkbox" checked>
+                <span>Shuffle questions</span>
+              </label>
+            </div>
+
+            <div class="summary-strip">
+              <div class="summary-chip">
+                <span class="chip-label">Available</span>
+                <strong id="available-count">0</strong>
+              </div>
+              <div class="summary-chip">
+                <span class="chip-label">Session size</span>
+                <strong id="session-size">0</strong>
+              </div>
+              <div class="summary-chip">
+                <span class="chip-label">Categories</span>
+                <strong id="selected-categories-count">0</strong>
+              </div>
+            </div>
+
+            <div class="actions-row">
+              <button id="start-session" class="button button-primary" type="button">Start session</button>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <div>
+                <h2>Study Categories</h2>
+                <p class="muted">These come from the analysis you generated.</p>
+              </div>
+              <div class="inline-actions">
+                <button id="select-all-categories" class="button button-subtle" type="button">Select all</button>
+                <button id="select-study-first" class="button button-subtle" type="button">Study first</button>
+                <button id="clear-categories" class="button button-subtle" type="button">Clear</button>
+              </div>
+            </div>
+
+            <div id="category-list" class="category-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="quiz-view" class="hidden" aria-live="polite">
+        <div class="panel question-panel">
+          <div class="question-topbar">
+            <div>
+              <p id="progress-label" class="eyebrow"></p>
+              <h2 id="question-title">Question</h2>
+            </div>
+            <div class="scorebox">
+              <span id="mode-badge" class="badge"></span>
+              <span id="score-label" class="score-label"></span>
+            </div>
+          </div>
+
+          <div class="progress-bar" aria-hidden="true">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+
+          <div id="question-meta" class="meta-row"></div>
+          <pre id="question-text" class="question-text"></pre>
+          <div id="choices" class="choices"></div>
+
+          <div id="feedback-card" class="feedback-card hidden"></div>
+
+          <div class="actions-row">
+            <button id="quit-session" class="button button-subtle" type="button">Back to setup</button>
+            <button id="primary-action" class="button button-primary" type="button">Check answer</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="results-view" class="hidden" aria-live="polite">
+        <div class="results-grid">
+          <section class="panel">
+            <div class="panel-head">
+              <div>
+                <h2>Session Results</h2>
+                <p id="results-summary" class="muted"></p>
+              </div>
+            </div>
+
+            <div id="results-cards" class="results-cards"></div>
+            <div id="category-breakdown" class="breakdown-list"></div>
+
+            <div class="actions-row">
+              <button id="retry-missed" class="button button-primary" type="button">Retry missed</button>
+              <button id="retry-same-set" class="button button-subtle" type="button">Retry same set</button>
+              <button id="return-to-setup" class="button button-subtle" type="button">New setup</button>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <div>
+                <h2>Review</h2>
+                <p class="muted">Missed questions from this run.</p>
+              </div>
+            </div>
+
+            <div id="review-list" class="review-list"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <noscript>
+    <div class="noscript-banner">JavaScript is required for this app.</div>
+  </noscript>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

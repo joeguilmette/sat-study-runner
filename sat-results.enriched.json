@@ -1,0 +1,1136 @@
+{
+  "practice_test": 11,
+  "section": "Reading and Writing",
+  "source_html": "sat-results.html",
+  "summary": {
+    "module_1_missed": 9,
+    "module_2_missed": 13,
+    "total_missed": 22
+  },
+  "screenshot_coverage": {
+    "total_screenshots": 27,
+    "unique_questions_covered": 22,
+    "duplicate_question_screenshots": 5,
+    "missing_questions": [],
+    "duplicate_groups": [
+      {
+        "module": 2,
+        "question_number": 5,
+        "screenshots": [
+          "Screenshot 2026-03-13 at 17.22.58.png",
+          "Screenshot 2026-03-13 at 17.23.05.png"
+        ]
+      },
+      {
+        "module": 2,
+        "question_number": 6,
+        "screenshots": [
+          "Screenshot 2026-03-13 at 17.23.12.png",
+          "Screenshot 2026-03-13 at 17.23.34.png"
+        ]
+      },
+      {
+        "module": 2,
+        "question_number": 7,
+        "screenshots": [
+          "Screenshot 2026-03-13 at 17.23.19.png",
+          "Screenshot 2026-03-13 at 17.23.42.png",
+          "Screenshot 2026-03-13 at 17.23.51.png"
+        ]
+      },
+      {
+        "module": 2,
+        "question_number": 11,
+        "screenshots": [
+          "Screenshot 2026-03-13 at 17.23.27.png",
+          "Screenshot 2026-03-13 at 17.24.09.png"
+        ]
+      }
+    ],
+    "unused_screenshots": [
+      "Screenshot 2026-03-13 at 17.23.05.png",
+      "Screenshot 2026-03-13 at 17.23.27.png",
+      "Screenshot 2026-03-13 at 17.23.34.png",
+      "Screenshot 2026-03-13 at 17.23.42.png",
+      "Screenshot 2026-03-13 at 17.23.51.png"
+    ]
+  },
+  "questions": [
+    {
+      "id": "m1-q3",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 3,
+      "domain": "Craft and Structure",
+      "question_text": "In a 2022 study, Nicolás M. Morato and colleagues attempted to resolve a long-standing paradox: although water is\ncritical to most reactions that enable life, during the earliest stages of Earth's history —when most of the planet's\nsurface was covered by oceans — the presence of water likely -\nthe formation of proteins and other\nbiomolecules that are found in all living organisms.\nWhich choice completes the text with the most logical and precise word or phrase",
+      "choices": {
+        "A": "reflected",
+        "B": "hampered",
+        "C": "imitated",
+        "D": "exploited"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "imitated"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "hampered"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.21.32.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.21.32.png"
+      ],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m1-q4",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 4,
+      "domain": "Craft and Structure",
+      "question_text": "A casual description of Scherezade García's 2019 mural Blame It on the Bean: The Power of Coffee can make the\nwork seem\n_— a painting that is housed in a coffee shop and that depicts three women drinking coffee may not\nsound particularly ambitious - but in fact the work is a complex, dynamic meditation on gender and the legacy of\ncolonialism that demands serious attention.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "unassuming",
+        "B": "shrewd",
+        "C": "incongruous",
+        "D": "pretentious"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "incongruous"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "unassuming"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.21.38.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.21.38.png"
+      ],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m1-q5",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 5,
+      "domain": "Craft and Structure",
+      "question_text": "Following the eradication of the gray wolf in Yellowstone National Park in 1926, the population of elk — a primary\nprey of the gray wolf -exceeded a healthy size for the park's ecosystem. Elk overpopulation led to overgrazing of\nareas that a multitude of other animals relied on for food and shelter. As scientists began to see how essential the\ngray wolf was to the Yellowstone food chain, ecological restoration strategies were employed to reintroduce the gray\nwolf to the park in 1996. The rebound effect in the park's natural ecosystem was noticed almost immediately.\nWhich choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It summarizes a problem that developed in Yellowstone National Park in the 1920s and then offers potential solutions to that problem.",
+        "B": "It mentions the elimination of the gray wolf from Yellowstone National Park and then explains why the wolf was eventually restored to the park.",
+        "C": "It presents a claim about the health of the Yellowstone National Park gray wolf population and then gives specific examples to support that claim.",
+        "D": "It explains why Yellowstone National Park allowed the eradication of the gray wolf and then discusses the consequences of reintroducing the wolf to the park."
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "It explains why Yellowstone National Park allowed the eradication of the gray wolf and then discusses the consequences of reintroducing the wolf to the park."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "It mentions the elimination of the gray wolf from Yellowstone National Park and then explains why the wolf was eventually restored to the park."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.21.44.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.21.44.png"
+      ],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m1-q6",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 6,
+      "domain": "Craft and Structure",
+      "question_text": "Curious about how people visually perceive objects in their dreams, Stephen LaBerge and team recruited lucid\ndreamers— people aware that they're dreaming as it's happening- for a research study. These participants were\nreliably able to signal when they had entered a dream state; the team then observed participants' eye movements as\nthey slept. The smoothness with which participants' eyes tracked objects in their dreams closely matched how\nsighted people who are awake visually track objects around them, suggesting to the team that the brain perceives\ndream objects as the product of something other than pure imagination.\nWhich choice best states the function of the underlined portion in the text as a whole?",
+      "choices": {
+        "A": "To offer key evidence that undermines LaBerge and team's initial hypothesis",
+        "B": "To show the unexpected result that led LaBerge and team to change the focus of their study",
+        "C": "To illustrate an important real-world implication of LaBerge and team's main finding",
+        "D": "To identify a comparable circumstance that helps justify LaBerge and team's conclusion"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "To offer key evidence that undermines LaBerge and team's initial hypothesis"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "To identify a comparable circumstance that helps justify LaBerge and team's conclusion"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.21.54.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.21.54.png"
+      ],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m1-q7",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 7,
+      "domain": "Craft and Structure",
+      "question_text": "Text 1\nGood art often challenges and disrupts social and aesthetic norms, but the creation of public art — paintings,\nsculptures, and performance pieces displayed in nonmuseum or nontheatrical public settings - typically requires\nbroad agreement among artists, civic officials, and community members about the works' message and artistic goals.\nPublic art that fails to appease everyone by being sufficiently aesthetically and conceptually bland almost inevitably.\nprovokes backlash.\nText 2\nPublic art is commonly displayed in spaces intended for purposes other than meaningful aesthetic engagement. Some\ncritics of public art therefore note that norm-defying pieces that aren't effectively integrated within their\nsurroundings in a manner that primes passersby to appreciate the pieces' merits (as is often the case) tend to be\nregarded more unfavorably than similarly provocative art encountered in museums is.\nBased on the texts, how would the critics mentioned in Text 2 most likely respond to the underlined claim in Text 1?",
+      "choices": {
+        "A": "By arguing that the reason members of the general public might disagree about a public artwork's merits is unrelated to the unconventionality of its appearance and ideas",
+        "B": "By agreeing with the idea that only works of art that are universally appealing are suitable for displaying in public spaces",
+        "C": "By disputing the notion that civic leaders and community members are easily placated by art that is intended mainly to reinforce social norms",
+        "D": "By contending that the kinds of reactions controversial public artworks often receive aren't exclusively the result of attributes inherent in the works themselves"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "By disputing the notion that civic leaders and community members are easily placated by art that is intended mainly to reinforce social norms"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "By contending that the kinds of reactions controversial public artworks often receive aren't exclusively the result of attributes inherent in the works themselves"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.21.59.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.21.59.png"
+      ],
+      "study_category_id": "paired-text-reasoning",
+      "study_category_label": "Craft and Structure: paired-text response and disagreement",
+      "study_priority_rank": 7,
+      "study_priority_band": "if time remains",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m1-q13",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 13,
+      "domain": "Information and Ideas",
+      "question_text": "Type of sheep\nFiber Characteristics of Mouflon, Navajo-Churro, and Spanish Merino Sheep\nDiameter of outer coat fibers (in microns) Diameter of inner coat fibers (in microns)\nSpanish Merino\n19-24\n17-21\nNavajo-Churro\n35 or higher\n10-35\nMouflon\n150\n15\nDomestic sheep's wild ancestor, the mouflon, has a coarse outer coat and an inner coat of wool fiber that is finer in\ndiameter and therefore much softer. In some domestic breeds, such as the Spanish Merino, the outer fiber is only\nmarginally coarser than the inner, and the wool is soft overall. Thus, Merino wool is ideal for delicate garments worn\nagainst the skin. Meanwhile, the Navajo-Churro has been selected to retain the marked distinction between outer and\ninner fiber that the Merino has lost. Being coarser than Merino wool overall, Navajo-Churro wool yields a more\ndurable yarn, which Diné (Navajo) weavers use in their celebrated rugs. Yet a comparison of the fiber characteristics\nof all three sheep reveals that\nWhich choice most effectively uses data from the table to complete the text?",
+      "choices": {
+        "A": "the selection process that enabled the Navajo-Churro to retain its somewhat coarse outer fiber also resulted in inner fiber that, at its softest, is softer than either the mouflon's or the Merino's inner fiber.",
+        "B": "the Navajo-Churro more closely resembles its ancestor, the mouflon, in the uniform softness of its inner fiber, while the Merino more closely resembles the mouflon in the variable diameter of its outer fiber.",
+        "C": "domestication resulted in a counterintuitive increase in the inner fiber's minimum diameter, making the inner fiber of the Merino and the Navajo-Churro less suitable for delicate garments than the mouflon's inner fiber is.",
+        "D": "the domestication of the mouflon and the subsequent selection process that produced the Merino and the Navajo-Churro resulted in greater softness of outer and inner fiber alike."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "domestication resulted in a counterintuitive increase in the inner fiber's minimum diameter, making the inner fiber of the Merino and the Navajo-Churro less suitable for delicate garments than the mouflon's inner fiber is."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "the selection process that enabled the Navajo-Churro to retain its somewhat coarse outer fiber also resulted in inner fiber that, at its softest, is softer than either the mouflon's or the Merino's inner fiber."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.05.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.05.png"
+      ],
+      "study_category_id": "data-and-table-reasoning",
+      "study_category_label": "Information and Ideas: tables, charts, and quantitative comparison",
+      "study_priority_rank": 4,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low"
+    },
+    {
+      "id": "m1-q17",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 17,
+      "domain": "Standard English Conventions",
+      "question_text": "According to the original text of the US Constitution, written in 1787, the presidential candidate receiving the\nsecond-most Electoral College votes becomes vice president. The 12th Amendment, ratified in\n_ separated the\nelections for the two offices.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "1804-",
+        "B": "1804,",
+        "C": "1804:",
+        "D": "1804"
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "1804"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "1804,"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.12.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.12.png"
+      ],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low"
+    },
+    {
+      "id": "m1-q23",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 23,
+      "domain": "Expression of Ideas",
+      "question_text": "Long thought to be sessile (immobile), adult Chelonibia testudinaria, barnacles that adhere to sea turtle shells, have\nbeen observed to shift slightly in position over time — a phenomenon that has been attributed to the barnacles'\npassive displacement by water currents. _\n_ a research team found that adult C. testudinaria moved toward the\nheads of their sea turtle hosts and thus against the prevailing water flow, behavior consistent with self-initiated\nlocomotion.\nWhich choice completes the text with the most logical transition?",
+      "choices": {
+        "A": "Contrary to this phenomenon,",
+        "B": "Undermining this explanation,",
+        "C": "Drawing a similar conclusion,",
+        "D": "Confirming this hypothesis,"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Contrary to this phenomenon,"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "Undermining this explanation,"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.20.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.20.png"
+      ],
+      "study_category_id": "rhetorical-synthesis-and-transitions",
+      "study_category_label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+      "study_priority_rank": 5,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium-high",
+      "study_time_to_improve": "low"
+    },
+    {
+      "id": "m1-q27",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 27,
+      "domain": "Expression of Ideas",
+      "question_text": "While researching a topic, a student has taken the following notes:\n• Edmonia Lewis (1844-1907) was an African American and Mississauga Ojibwe sculptor.\n• Forever Free (1867) is a marble sculpture by Lewis.\n• It depicts a male figure and a female figure gazing upward.\n• It commemorates the 1863 Emancipation Proclamation.\n• The phrase \"forever free\" from the text of the Emancipation Proclamation is inscribed on the sculpture's\nbase.\n• Art historian Kirsten Buick describes the sculpture as a \"celebration of liberty.\"\nThe student wants to explain the sculpture's specific historical context. Which choice most effectively uses relevant\ninformation from the notes to accomplish this goal?",
+      "choices": {
+        "A": "According to art historian Kirsten Buick, Forever Free, which depicts a male figure and a female figure gazing upward, is a \"celebration of liberty.\"",
+        "B": "The base of Edmonia Lewis's 1867 marble sculpture is inscribed with a historically significant phrase: \"forever free.\"",
+        "C": "Completed in 1867, Lewis's sculpture Forever Free commemorates the Emancipation Proclamation, which had been issued four years previously.",
+        "D": "Forever Free (1867) is a marble sculpture by Edmonia Lewis, an African American and Mississauga Ojibwe sculptor who lived from 1844 to 1907."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "According to art historian Kirsten Buick, Forever Free, which depicts a male figure and a female figure gazing upward, is a \"celebration of liberty.\""
+      },
+      "correct_answer": {
+        "letter": "C",
+        "text": "Completed in 1867, Lewis's sculpture Forever Free commemorates the Emancipation Proclamation, which had been issued four years previously."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.29.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.29.png"
+      ],
+      "study_category_id": "rhetorical-synthesis-and-transitions",
+      "study_category_label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+      "study_priority_rank": 5,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium-high",
+      "study_time_to_improve": "low"
+    },
+    {
+      "id": "m2-q1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 1,
+      "domain": "Craft and Structure",
+      "question_text": "Scholars long thought that the initial spread of silk beyond China occurred in the second century CE, but this view\nhas been _\nby new archaeological evidence from South Asia that reveals that the people of the Indus\nCivilization made use of silk at least 1,000 years earlier.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "investigated",
+        "B": "misinterpreted",
+        "C": "anticipated",
+        "D": "contradicted"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "investigated"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "contradicted"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.37.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.37.png"
+      ],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m2-q2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 2,
+      "domain": "Craft and Structure",
+      "question_text": "Archaeologists have identified a plethora of beads fashioned from Tritia gibbosula shells in many Middle Stone Age\n(MSA) sites across western North Africa, including El Mnasra Cave, Morocco. In a 2021 paper, El Mehdi Sehasseh\net al. attribute these artifacts' apparent _\n_ to the evolution and propagation of symbolic behavior (e.g., use of\npersonal ornaments) in humans and the widespread availability of T. gibbosula during the MSA.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "heterogeneity",
+        "B": "ubiquity",
+        "C": "expediency",
+        "D": "fecundity"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "heterogeneity"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "ubiquity"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.42.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.42.png"
+      ],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m2-q3",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 3,
+      "domain": "Craft and Structure",
+      "question_text": "The familial structure of the black swan (Cygnus atratus) shows tremendous\n_: breeding pairs with\ndemonstrated success in rearing cygnets (young swans) have been observed to foster those of less successful pairs,\nand while rearing by female-male pairs is most common, male-male pairs sometimes rear cygnets too, achieving a\nsignificantly higher rate of survival to adulthood than female-male pairs.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "cohesion",
+        "B": "elasticity",
+        "C": "affection",
+        "D": "reciprocity"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "affection"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "elasticity"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.51.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.51.png"
+      ],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m2-q5",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 5,
+      "domain": "Craft and Structure",
+      "question_text": "The following text is from Bram Stoker's 1911 novel The Lair of the White Worm. Adam is meeting his great-uncle\nRichard at a port.\nThe meeting so auspiciously begun proceeded well. Adam, seeing that the old man was interested in the\nnovelty of the ship, suggested that he should stay the night on board, and that he would himself be ready to\nstart at any hour and go anywhere that the other suggested. This affectionate willingness to fall in with his\nown plans quite won the old man's heart. He warmly accepted the invitation, and at once they became not\nonly on terms of affectionate relationship, but almost like old friends.\nWhich choice best states the main purpose of the text?",
+      "choices": {
+        "A": "It states the reasons why Adam and his great-uncle Richard decide to sleep on the ship rather than finding lodging on land.",
+        "B": "It showcases how Adam's flexibility and consideration strengthen his relationship with his great-uncle Richard.",
+        "C": "It describes why Adam and his great-uncle Richard are excited for their upcoming journey on the ship.",
+        "D": "It contrasts great-uncle Richard's wary first impressions of Adam with his ultimate affection toward him."
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "It contrasts great-uncle Richard's wary first impressions of Adam with his ultimate affection toward him."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "It showcases how Adam's flexibility and consideration strengthen his relationship with his great-uncle Richard."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.22.58.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.22.58.png",
+        "Screenshot 2026-03-13 at 17.23.05.png"
+      ],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m2-q6",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 6,
+      "domain": "Craft and Structure",
+      "question_text": "The following text is from William Shakespeare's circa 1611 play The Winter's Tale. Camillo has been away fron\nhis home in Sicily and serves in the court of Polixenes, the king of Bohemia. He has asked Polixenes for permission\nto return to Sicily.\nPOLIXENES: I pray thee, good Camillo, be no more\nimportunate. 'Tis a sickness denying thee anything,\na death to grant this.\nCAMILLO: It is fifteen years since I saw my country.\nThough I have for the most part been aired abroad,\nI desire to lay my bones there. Besides, the penitent\nking, my master, hath sent for me, to whose feeling\nsorrows I might be some allay-or I o'erween (presume to\nthink so — which is another spur to my departure.\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": {
+        "A": "It establishes Camillo's hope that Polixenes will be comforted knowing that Camillo isn't departing at his own discretion.",
+        "B": "It suggests that Camillo feels compelled to persuade Polixenes that Camillo's decision to leave the court is justified.",
+        "C": "It conveys Camillo's recognition that one benefit his presence may afford the king of Sicily is merely speculative.",
+        "D": "It bolsters the idea that Camillo's primary motivation to return home is his concern for the king of Sicily's well-being in his absence."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "It establishes Camillo's hope that Polixenes will be comforted knowing that Camillo isn't departing at his own discretion."
+      },
+      "correct_answer": {
+        "letter": "C",
+        "text": "It conveys Camillo's recognition that one benefit his presence may afford the king of Sicily is merely speculative."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.23.12.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.23.12.png",
+        "Screenshot 2026-03-13 at 17.23.34.png"
+      ],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m2-q7",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 7,
+      "domain": "Craft and Structure",
+      "question_text": "Text 1\nChemically analyzing bulk rock-core samples from Australia's Mount McRae Shale, Ariel Anbar et al. found a\ntransient but significant increase in molybdenum (Mo) at a point corresponding to roughly 2.5 billion years ago (Ga).\nOn Earth, Mo is released mainly through oxidative weathering of minerals; Anbar et al. therefore concluded that\natmospheric oxygen briefly increased 2.5 Ga, then returned to its earlier negligible level.\nText 2\nSarah Slotznick et al. reexamined the Mount McRae Shale core. Since chemically analyzing bulk samples can\nocclude contextual details, Slotznick et al. also employed high-resolution microscopy, which revealed volcanic\ndebris— a known Mo host-around 2.5 Ga and microfractures in the surrounding matrix. The researchers assert that\nfluid could have reached the debris through the microfractures and initiated oxidative weathering long after debris\ndeposition.\nBased on the texts, Anbar et al. (Text 1) and Slotznick et al. (Text 2) would most likely disagree about the answer to\nwhich question about the portion of the Mount McRae Shale rock-core corresponding to 2.5 Ga?",
+      "choices": {
+        "A": "Does the increase in Mo in that portion suggest that atmospheric oxygen levels were not negligible before 2.5 Ga?",
+        "B": "Is the increase in Mo in that portion indicative of an increase in atmospheric oxygen dating to the same time?",
+        "C": "Is the increase in Mo in that portion attributable to oxidative weathering of the material found in that portion?",
+        "D": "Did chemically analyzing bulk samples lead to a false impression that there is an increase in Mo in that portion?"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Does the increase in Mo in that portion suggest that atmospheric oxygen levels were not negligible before 2.5 Ga?"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "Is the increase in Mo in that portion indicative of an increase in atmospheric oxygen dating to the same time?"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.23.19.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.23.19.png",
+        "Screenshot 2026-03-13 at 17.23.42.png",
+        "Screenshot 2026-03-13 at 17.23.51.png"
+      ],
+      "study_category_id": "paired-text-reasoning",
+      "study_category_label": "Craft and Structure: paired-text response and disagreement",
+      "study_priority_rank": 7,
+      "study_priority_band": "if time remains",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium"
+    },
+    {
+      "id": "m2-q8",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 8,
+      "domain": "Information and Ideas",
+      "question_text": "The following text is from Mick Herron's 2023 novel The Secret Hours. The narrator is describing members of a\ngovernment committee.\nFinally, and adding much-needed gravitas, was Sir Winston Day, whose features seemed moulded to adorn a\nbust, or possibly a stamp, and whose forehead was so evidently bulging with grey matter that it would have\nbeen impertinent to inquire too closely into the actual achievements his half century of public service had\nproduced. His recently published memoirs possibly cast light on this enigma, but given that such details were\nnot provided until after the thirty-page mark, they might as well have remained state secrets.\n©2023 by Mick Herron\nBased on the text, which choice best describes Sir Winston Day?",
+      "choices": {
+        "A": "He has the appearance of a distinguished figure, but it is uncertain whether he has accomplished anything to earn distinction.",
+        "B": "He looks like a person worthy of respect, but his memoirs reveal that some of his actions were dishonorable.",
+        "C": "He would be a celebrated public figure if his achievements did not have to be kept secret.",
+        "D": "He has maintained a modest profile even though he has served the public capably for many years."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "He would be a celebrated public figure if his achievements did not have to be kept secret."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "He has the appearance of a distinguished figure, but it is uncertain whether he has accomplished anything to earn distinction."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.23.57.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.23.57.png"
+      ],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high"
+    },
+    {
+      "id": "m2-q9",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 9,
+      "domain": "Information and Ideas",
+      "question_text": "Studies of ocean wave breaking have predominantly focused on traveling waves (those propagating along the\nhorizontal plane), so Mark McAllister et al. utilized a circular wave tank to produce and study spike waves,\naxisymmetric standing waves that can erupt vertically when traveling waves propagating in opposing directions\nintersect. Traveling waves break when wave steepness (height-to-length ratio) passes a critical threshold; breaking\nthus constrains wave height. McAllister et al. found that spike waves can exceed that constraint, as other factors than\njust steepness (e.g., jet stability and cavity shape) mediate spike-wave breaking.\nWhich choice best states the main idea of the text?",
+      "choices": {
+        "A": "Previous studies have suggested that steepness mediates breaking in traveling waves, but the study by McAllister et al. shows that jet stability and cavity shape may also influence breaking in such waves.",
+        "B": "The process of breaking limits the height of traveling waves, but the study by McAllister et al. suggests that spike waves can exceed those limits if their height-to-length ratio reaches a critical threshold.",
+        "C": "McAllister et al. suggest that spike waves can form when traveling waves propagating in opposing directions intersect and that spike waves tend to be higher than traveling waves.",
+        "D": "The study by McAllister et al. suggests that when traveling waves intersect in specific ways, the resulting wave may be higher than would be expected based on the properties of traveling waves."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Previous studies have suggested that steepness mediates breaking in traveling waves, but the study by McAllister et al. shows that jet stability and cavity shape may also influence breaking in such waves."
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "The study by McAllister et al. suggests that when traveling waves intersect in specific ways, the resulting wave may be higher than would be expected based on the properties of traveling waves."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.24.02.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.24.02.png"
+      ],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high"
+    },
+    {
+      "id": "m2-q11",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 11,
+      "domain": "Information and Ideas",
+      "question_text": "Many music streaming services also function as social media platforms: by giving users the option to follow friends\nand share curated playlists or information about their listening history, these platforms allow people to convey their\nmusic preferences and listening activities directly to their social networks. In a 2023 study, researcher Michael James\nWalsh interviewed frequent users of a popular music streaming platform to investigate how its social media\ndimensions shape their listening habits. Walsh found that these dimensions tended to make study participants feel\nmore mindful of how their listening activities may be perceived, which in turn influenced how they managed those\nactivities.\nWhich quotation from a music streaming platform user would best illustrate Walsh's finding?",
+      "choices": {
+        "A": "\"When I create playlists or choose songs to listen to, I often pick songs that I think the friends who are following me might be interested in listening to, rather than what I might actually prefer listening to in that moment.\"",
+        "B": "\"Because the predictions the platform makes about what new songs I might like depend on my past listening habits, at times its recommendations can feel overly repetitive and unvarying.\"",
+        "C": "\"The social aspects of music streaming make it really easy to create a sense of a shared listening experience with my friends, even if we aren't in the same room.\"",
+        "D": "\"Listening to music through a streaming platform feels a lot more passive, since I don't need to make any deliberate choices about what music I'm going to consume, like I do when buying digital downloads or records and CDs.\""
+      },
+      "selected_incorrect_answer": {
+        "letter": "B",
+        "text": "\"Because the predictions the platform makes about what new songs I might like depend on my past listening habits, at times its recommendations can feel overly repetitive and unvarying.\""
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "\"When I create playlists or choose songs to listen to, I often pick songs that I think the friends who are following me might be interested in listening to, rather than what I might actually prefer listening to in that moment.\""
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.24.09.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.23.27.png",
+        "Screenshot 2026-03-13 at 17.24.09.png"
+      ],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high"
+    },
+    {
+      "id": "m2-q12",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 12,
+      "domain": "Information and Ideas",
+      "question_text": "Properties of TRAPPIST-1 Exoplanets Compared to Earth's\nProperties\nPlanet | Orbital period (days) | Planet radius (Earth radii)\nEarth | 365.26 | 1\nTRAPPIST-1b | 1.51 | 1.09\nTRAPPIST-1d | 4.05 | 0.77\nTRAPPIST-1e | 6.1 | 0.92\nTRAPPIST-1f | 9.21 | 1.04\n\nTRAPPIST-1 is a planetary system with a central red dwarf star and several Earth-sized exoplanets. Each planet in this system is so close in orbit to the star that the gravitational forces acting between the planet and the star cause the planet's rotational period around its axis and orbital period around the star to be equal. For example, the orbital period of TRAPPIST-1e is ____.\nWhich choice most effectively uses data from the table to complete the example?",
+      "choices": {
+        "A": "1.51 days, which is the shortest rotational period of any of the TRAPPIST planets.",
+        "B": "6.1 days, and its rotational period is also 6.1 days.",
+        "C": "9.21 days, which is the same as the rotational period of TRAPPIST-1f.",
+        "D": "6.1 days, and its rotational period is 0.92 days."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "1.51 days, which is the shortest rotational period of any of the TRAPPIST planets."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "6.1 days, and its rotational period is also 6.1 days."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.24.15.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.24.15.png"
+      ],
+      "study_category_id": "data-and-table-reasoning",
+      "study_category_label": "Information and Ideas: tables, charts, and quantitative comparison",
+      "study_priority_rank": 4,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low"
+    },
+    {
+      "id": "m2-q13",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 13,
+      "domain": "Information and Ideas",
+      "question_text": "Studies conducted in individual Western societies have demonstrated associations between personality traits and five\nmusical factors (mellowness, unpretentiousness, sophistication, intensity, and contemporariness) underlying\nindividual preferences for styles of Western music. To investigate these associations across cultures, David M.\nGreenberg et al. collected music-preference assessments for Western genres and self-reported personality traits from\nparticipants in fifty-three countries across six continents. The study confirmed that the five-factor framework\naccurately captured participants' tastes in Western music, and, moreover, the study found similar correlations\nbetween patterns of these factors and of personality traits, suggesting that\nWhich choice most logically completes the text?",
+      "choices": {
+        "A": "across cultural contexts, people who share similar profiles of personality traits tend to prefer listening to similar types of Western music.",
+        "B": "the five-factor framework can likely be used to predict preferences for non-Western music styles based on personality traits even if the characteristics of those styles substantially differ from characteristics of Western music styles.",
+        "C": "the strength of the relationship between personality traits and musical preferences varies less across cultures than researchers had previously assumed.",
+        "D": "people with a relatively high degree of familiarity with Western music styles are likely to express stronger preferences for those styles than people with a relatively low degree of familiarity with those styles are."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "the strength of the relationship between personality traits and musical preferences varies less across cultures than researchers had previously assumed."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "across cultural contexts, people who share similar profiles of personality traits tend to prefer listening to similar types of Western music."
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.24.20.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.24.20.png"
+      ],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high"
+    },
+    {
+      "id": "m2-q15",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 15,
+      "domain": "Standard English Conventions",
+      "question_text": "Established in 1936 by African American novelist Richard Wright, -\ncreative movement known as the Chicago Black Renaissance.\nit would become a vital part of the\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "the South Side Writers Group provided a valuable forum for Chicago writers to share ideas;",
+        "B": "Chicago writers in the South Side Writers Group had a valuable forum for sharing ideas;",
+        "C": "writers shared ideas at a valuable forum known as the South Side Writers Group in Chicago;",
+        "D": "Chicago was where the South Side Writers Group provided a valuable forum for writers to share ideas;"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "writers shared ideas at a valuable forum known as the South Side Writers Group in Chicago;"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "the South Side Writers Group provided a valuable forum for Chicago writers to share ideas;"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.24.29.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.24.29.png"
+      ],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low"
+    },
+    {
+      "id": "m2-q19",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 19,
+      "domain": "Standard English Conventions",
+      "question_text": "For scientists to produce new iron nanoparticles of a specific size or strength, they must first be able to monitor reactions between oxygen and existing iron nanoparticles at a near-atomic level of detail. Fortunately, chemistry ____ and his colleagues at Temple University recently developed a new approach that does just that.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "professor Yugang Sun",
+        "B": "professor Yugang Sun,",
+        "C": "professor, Yugang Sun,",
+        "D": "professor, Yugang Sun"
+      },
+      "selected_incorrect_answer": {
+        "letter": "B",
+        "text": "professor Yugang Sun,"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "professor Yugang Sun"
+      },
+      "primary_screenshot": "Screenshot 2026-03-13 at 17.24.37.png",
+      "source_screenshots": [
+        "Screenshot 2026-03-13 at 17.24.37.png"
+      ],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low"
+    }
+  ],
+  "study_analysis": {
+    "generated_on": "2026-03-13",
+    "interpretation_notes": [
+      "These categories are based on the actual task each question is testing, not only the SAT broad domain label.",
+      "Priority is based on a mix of miss frequency and speed of likely improvement under limited study time.",
+      "Study-first buckets are the best short-term targets; study-next buckets are worthwhile after those are covered."
+    ],
+    "priority_order": [
+      {
+        "rank": 1,
+        "bucket_id": "standard-english-conventions",
+        "label": "Standard English Conventions: punctuation, titles, and modifier placement",
+        "miss_count": 3,
+        "priority_band": "study first",
+        "estimated_roi": "high",
+        "why": "Three misses in a rule-based area. This is the fastest bucket to tighten under time pressure."
+      },
+      {
+        "rank": 2,
+        "bucket_id": "word-in-context-precision",
+        "label": "Craft and Structure: word-in-context and precision vocabulary",
+        "miss_count": 5,
+        "priority_band": "study first",
+        "estimated_roi": "high",
+        "why": "Five misses, the largest cluster. Fixing this reduces repeat misses quickly because the question form is highly consistent."
+      },
+      {
+        "rank": 3,
+        "bucket_id": "passage-function-structure-purpose",
+        "label": "Craft and Structure: passage structure, sentence function, and author purpose",
+        "miss_count": 4,
+        "priority_band": "study first",
+        "estimated_roi": "high",
+        "why": "Four misses in a recurring question family. These are common on the test and improve with a repeatable annotation habit."
+      },
+      {
+        "rank": 4,
+        "bucket_id": "data-and-table-reasoning",
+        "label": "Information and Ideas: tables, charts, and quantitative comparison",
+        "miss_count": 2,
+        "priority_band": "study next",
+        "estimated_roi": "high",
+        "why": "Only two misses, but these are formulaic and often among the easiest points to recover quickly."
+      },
+      {
+        "rank": 5,
+        "bucket_id": "rhetorical-synthesis-and-transitions",
+        "label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+        "miss_count": 2,
+        "priority_band": "study next",
+        "estimated_roi": "medium-high",
+        "why": "Two misses, but both are skill-pattern questions that are usually quick to improve once the task is framed correctly."
+      },
+      {
+        "rank": 6,
+        "bucket_id": "inference-main-idea-application",
+        "label": "Information and Ideas: inference, main idea, and evidence application",
+        "miss_count": 4,
+        "priority_band": "study next",
+        "estimated_roi": "medium",
+        "why": "Four misses here, but this bucket is less formulaic than grammar or table questions. It matters, but it usually takes a little longer to sharpen."
+      },
+      {
+        "rank": 7,
+        "bucket_id": "paired-text-reasoning",
+        "label": "Craft and Structure: paired-text response and disagreement",
+        "miss_count": 2,
+        "priority_band": "if time remains",
+        "estimated_roi": "medium",
+        "why": "Two misses. This is still worth covering, but the question type is narrower and a bit slower to improve than the buckets above."
+      }
+    ],
+    "timeboxed_plan": {
+      "thirty_minutes": [
+        "Standard English Conventions",
+        "Data and Table Reasoning",
+        "Transitions and Notes Synthesis"
+      ],
+      "sixty_minutes": [
+        "Standard English Conventions",
+        "Word-in-Context and Precision Vocabulary",
+        "Data and Table Reasoning",
+        "Transitions and Notes Synthesis"
+      ],
+      "ninety_minutes": [
+        "Standard English Conventions",
+        "Word-in-Context and Precision Vocabulary",
+        "Passage Function, Structure, and Purpose",
+        "Data and Table Reasoning",
+        "Transitions and Notes Synthesis"
+      ],
+      "two_hours_or_more": [
+        "Standard English Conventions",
+        "Word-in-Context and Precision Vocabulary",
+        "Passage Function, Structure, and Purpose",
+        "Data and Table Reasoning",
+        "Transitions and Notes Synthesis",
+        "Inference, Main Idea, and Evidence Application",
+        "Paired-Text Reasoning"
+      ]
+    },
+    "study_categories": [
+      {
+        "id": "standard-english-conventions",
+        "label": "Standard English Conventions: punctuation, titles, and modifier placement",
+        "priority_rank": 1,
+        "priority_band": "study first",
+        "estimated_roi": "high",
+        "time_to_improve": "low",
+        "rationale": "Three misses in a rule-based area. This is the fastest bucket to tighten under time pressure.",
+        "miss_count": 3,
+        "pattern_observed": "The misses came from sentence-structure and punctuation decisions, not from misunderstanding passage meaning.",
+        "subskills": [
+          "Use commas to set off nonessential modifiers or interrupting phrases.",
+          "Make sure an opening modifier clearly attaches to the noun that follows.",
+          "Do not insert commas between a professional title and a name when the title is restrictive."
+        ],
+        "study_actions": [
+          "Review nonessential phrase commas, title-name punctuation, and modifier placement.",
+          "Practice rewriting each sentence by identifying the core subject-verb first, then add modifiers back.",
+          "When stuck, strip away extras and ask what punctuation keeps one grammatical sentence."
+        ],
+        "question_ids": [
+          "m1-q17",
+          "m2-q15",
+          "m2-q19"
+        ],
+        "question_refs": [
+          "Module 1 Q17",
+          "Module 2 Q15",
+          "Module 2 Q19"
+        ]
+      },
+      {
+        "id": "word-in-context-precision",
+        "label": "Craft and Structure: word-in-context and precision vocabulary",
+        "priority_rank": 2,
+        "priority_band": "study first",
+        "estimated_roi": "high",
+        "time_to_improve": "medium",
+        "rationale": "Five misses, the largest cluster. Fixing this reduces repeat misses quickly because the question form is highly consistent.",
+        "miss_count": 5,
+        "pattern_observed": "The incorrect choices were plausible in topic or tone but did not match the sentence logic precisely enough.",
+        "subskills": [
+          "Predict the missing idea before looking at the options.",
+          "Use contrast and cause-effect clues to determine tone and direction.",
+          "Choose the word that is logically exact, not just generally related to the topic."
+        ],
+        "study_actions": [
+          "Cover the choices and say your own word or phrase first.",
+          "Mark clue words such as although, but, thus, and examples that reveal whether the blank should be positive, negative, broad, narrow, stable, flexible, and so on.",
+          "Eliminate answers that fit the subject matter but do not fit the actual relationship in the sentence."
+        ],
+        "question_ids": [
+          "m1-q3",
+          "m1-q4",
+          "m2-q1",
+          "m2-q2",
+          "m2-q3"
+        ],
+        "question_refs": [
+          "Module 1 Q3",
+          "Module 1 Q4",
+          "Module 2 Q1",
+          "Module 2 Q2",
+          "Module 2 Q3"
+        ]
+      },
+      {
+        "id": "passage-function-structure-purpose",
+        "label": "Craft and Structure: passage structure, sentence function, and author purpose",
+        "priority_rank": 3,
+        "priority_band": "study first",
+        "estimated_roi": "high",
+        "time_to_improve": "medium",
+        "rationale": "Four misses in a recurring question family. These are common on the test and improve with a repeatable annotation habit.",
+        "miss_count": 4,
+        "pattern_observed": "The wrong answers tended to overstate motive, consequences, or contrast instead of naming the exact role played by the sentence or passage.",
+        "subskills": [
+          "Summarize each sentence or paragraph by its job, not its topic.",
+          "Separate what the text says from what the answer choice adds or exaggerates.",
+          "For underlined-function questions, ask why the author included that part right there."
+        ],
+        "study_actions": [
+          "Annotate each paragraph with a short label such as problem, evidence, result, comparison, or qualification.",
+          "On function questions, finish the sentence: This part is here to ____.",
+          "Reject answers that sound interpretive or dramatic if the passage only supports a narrower role."
+        ],
+        "question_ids": [
+          "m1-q5",
+          "m1-q6",
+          "m2-q5",
+          "m2-q6"
+        ],
+        "question_refs": [
+          "Module 1 Q5",
+          "Module 1 Q6",
+          "Module 2 Q5",
+          "Module 2 Q6"
+        ]
+      },
+      {
+        "id": "data-and-table-reasoning",
+        "label": "Information and Ideas: tables, charts, and quantitative comparison",
+        "priority_rank": 4,
+        "priority_band": "study next",
+        "estimated_roi": "high",
+        "time_to_improve": "low",
+        "rationale": "Only two misses, but these are formulaic and often among the easiest points to recover quickly.",
+        "miss_count": 2,
+        "pattern_observed": "The misses came from choosing a claim that sounded scientific but did not exactly match the table values or stated relationship.",
+        "subskills": [
+          "Translate the claim into a precise data check before reading the answers.",
+          "Track min versus max, exact equality, and direct comparisons across rows.",
+          "Match every claim in an answer choice to a visible number or table relationship."
+        ],
+        "study_actions": [
+          "Write the key relationship in plain English before choosing: softer than, equal to, shortest, same period, and so on.",
+          "Check every comparative word in the answer against the table one by one.",
+          "Prefer the answer that is fully supported, even if another sounds more interesting."
+        ],
+        "question_ids": [
+          "m1-q13",
+          "m2-q12"
+        ],
+        "question_refs": [
+          "Module 1 Q13",
+          "Module 2 Q12"
+        ]
+      },
+      {
+        "id": "rhetorical-synthesis-and-transitions",
+        "label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+        "priority_rank": 5,
+        "priority_band": "study next",
+        "estimated_roi": "medium-high",
+        "time_to_improve": "low",
+        "rationale": "Two misses, but both are skill-pattern questions that are usually quick to improve once the task is framed correctly.",
+        "miss_count": 2,
+        "pattern_observed": "The incorrect answers were related to the subject matter but did not serve the author’s specific goal or logical transition.",
+        "subskills": [
+          "Identify the logical relationship before evaluating transition words.",
+          "Use the stated writing goal to decide which note is relevant.",
+          "Prefer the choice that accomplishes the exact rhetorical task, not just one that mentions the topic."
+        ],
+        "study_actions": [
+          "Before looking at choices, label the blank as contrast, support, cause, result, or concession.",
+          "For notes questions, underline the goal and discard notes that are interesting but off-goal.",
+          "Choose the answer that does the job most directly, even if another includes more detail."
+        ],
+        "question_ids": [
+          "m1-q23",
+          "m1-q27"
+        ],
+        "question_refs": [
+          "Module 1 Q23",
+          "Module 1 Q27"
+        ]
+      },
+      {
+        "id": "inference-main-idea-application",
+        "label": "Information and Ideas: inference, main idea, and evidence application",
+        "priority_rank": 6,
+        "priority_band": "study next",
+        "estimated_roi": "medium",
+        "time_to_improve": "medium-high",
+        "rationale": "Four misses here, but this bucket is less formulaic than grammar or table questions. It matters, but it usually takes a little longer to sharpen.",
+        "miss_count": 4,
+        "pattern_observed": "The wrong choices were plausible but either added a new claim, shifted the emphasis, or captured only part of the evidence.",
+        "subskills": [
+          "Base every choice on explicit support from the passage, not a plausible outside idea.",
+          "For main idea questions, choose the answer that captures the passage’s center of gravity.",
+          "For illustration questions, match the example to the exact finding or claim."
+        ],
+        "study_actions": [
+          "Paraphrase the passage claim in one sentence before reading the answer choices.",
+          "Use a strict support test: where is that claim in the text?",
+          "Reject answers that add motive, certainty, or scope beyond what the passage states."
+        ],
+        "question_ids": [
+          "m2-q8",
+          "m2-q9",
+          "m2-q11",
+          "m2-q13"
+        ],
+        "question_refs": [
+          "Module 2 Q8",
+          "Module 2 Q9",
+          "Module 2 Q11",
+          "Module 2 Q13"
+        ]
+      },
+      {
+        "id": "paired-text-reasoning",
+        "label": "Craft and Structure: paired-text response and disagreement",
+        "priority_rank": 7,
+        "priority_band": "if time remains",
+        "estimated_roi": "medium",
+        "time_to_improve": "medium",
+        "rationale": "Two misses. This is still worth covering, but the question type is narrower and a bit slower to improve than the buckets above.",
+        "miss_count": 2,
+        "pattern_observed": "The misses came from selecting an answer on the right topic but not on the precise point where the texts diverged.",
+        "subskills": [
+          "Identify Text 1 claim and Text 2 qualification or challenge separately.",
+          "Turn the disagreement into a yes-no question or a single sentence contrast.",
+          "Focus on the exact axis of disagreement, not the broader topic."
+        ],
+        "study_actions": [
+          "Make a quick T-chart: Text 1 says ___; Text 2 says ___.",
+          "For disagreement questions, rewrite each answer as a yes-no issue and test whether both texts would answer it differently.",
+          "Ignore wording that sounds sophisticated if it is not the real dispute."
+        ],
+        "question_ids": [
+          "m1-q7",
+          "m2-q7"
+        ],
+        "question_refs": [
+          "Module 1 Q7",
+          "Module 2 Q7"
+        ]
+      }
+    ]
+  }
+}
