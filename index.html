@@ -9,38 +9,9 @@
 <body>
   <div class="page-shell">
     <header class="hero">
-      <div class="hero-body">
-        <div>
-          <p class="eyebrow">SAT Reading and Writing</p>
-          <h1>Study Runner</h1>
-          <p id="bank-summary" class="hero-copy">Loading question bank...</p>
-        </div>
-
-        <div class="hero-highlights" aria-label="Session workflow highlights">
-          <div class="hero-stat">
-            <span class="hero-stat-label">Focus</span>
-            <strong>Priority-first sessions</strong>
-          </div>
-          <div class="hero-stat">
-            <span class="hero-stat-label">Practice</span>
-            <strong>Immediate answer feedback</strong>
-          </div>
-          <div class="hero-stat">
-            <span class="hero-stat-label">Review</span>
-            <strong>Retry missed questions fast</strong>
-          </div>
-        </div>
-      </div>
-
-      <aside class="hero-sidebar">
-        <p class="hero-note">
-          Build a short, targeted run, then loop missed questions back into the next session while the pattern is still fresh.
-        </p>
-        <div class="hero-links">
-          <a class="link-chip" href="./sat-study-priorities.md">Study priorities</a>
-          <a class="link-chip" href="./sat-results.html">Enriched table</a>
-        </div>
-      </aside>
+      <p class="eyebrow">SAT Reading and Writing</p>
+      <h1>Study Runner</h1>
+      <p id="bank-summary" class="hero-copy">Loading question bank...</p>
     </header>
 
     <main class="main-shell">
@@ -166,14 +137,21 @@
 
           <div class="question-body">
             <div id="question-meta" class="meta-row"></div>
-            <pre id="question-text" class="question-text"></pre>
-            <div id="choices" class="choices"></div>
-            <div id="feedback-card" class="feedback-card hidden"></div>
+            <div class="question-split">
+              <pre id="question-text" class="question-text"></pre>
+              <div class="question-right">
+                <div id="choices" class="choices"></div>
+                <div id="feedback-card" class="feedback-card hidden"></div>
+              </div>
+            </div>
           </div>
 
           <div class="actions-row question-actions">
             <button id="quit-session" class="button button-subtle" type="button">Back to setup</button>
-            <button id="primary-action" class="button button-primary" type="button">Check answer</button>
+            <div class="actions-right">
+              <button id="prev-question" class="button button-subtle hidden" type="button">Previous</button>
+              <button id="primary-action" class="button button-primary" type="button">Check answer</button>
+            </div>
           </div>
         </div>
       </section>

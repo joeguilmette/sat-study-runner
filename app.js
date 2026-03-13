@@ -44,6 +44,7 @@ const elements = {
   choices: document.querySelector("#choices"),
   feedbackCard: document.querySelector("#feedback-card"),
   primaryAction: document.querySelector("#primary-action"),
+  prevQuestion: document.querySelector("#prev-question"),
   quitSession: document.querySelector("#quit-session"),
   resultsView: document.querySelector("#results-view"),
   resultsSummary: document.querySelector("#results-summary"),
@@ -155,6 +156,10 @@ function bindSetupEvents() {
 
   elements.primaryAction.addEventListener("click", () => {
     handlePrimaryAction();
+  });
+
+  elements.prevQuestion.addEventListener("click", () => {
+    moveToPreviousQuestion();
   });
 
   elements.quitSession.addEventListener("click", () => {
@@ -440,6 +445,8 @@ function renderQuestion() {
   renderChoices(question, answerState);
   renderFeedback(question, answerState);
 
+  elements.prevQuestion.classList.toggle("hidden", state.session.currentIndex === 0);
+
   if (state.session.mode === "practice") {
     elements.primaryAction.textContent = answerState.revealed
       ? (index === total ? "Finish session" : "Next question")
@@ -631,6 +638,15 @@ function moveToNextQuestion() {
   }
 
   state.session.currentIndex += 1;
+  renderQuestion();
+}
+
+function moveToPreviousQuestion() {
+  if (state.session.currentIndex === 0) {
+    return;
+  }
+
+  state.session.currentIndex -= 1;
   renderQuestion();
 }
 
