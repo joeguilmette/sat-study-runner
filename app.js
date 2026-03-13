@@ -3,11 +3,13 @@ const STORAGE_KEY = "sat-study-runner-settings-v1";
 const state = {
   bank: null,
   categoryMap: new Map(),
+  questionMap: new Map(),
   settings: {
     mode: "practice",
     shuffle: true,
     questionCount: "all",
     categoryIds: [],
+    includeSynthetic: false,
   },
   session: null,
 };
@@ -21,6 +23,7 @@ const elements = {
   categoryList: document.querySelector("#category-list"),
   questionCount: document.querySelector("#question-count"),
   shuffleToggle: document.querySelector("#shuffle-toggle"),
+  includeSyntheticToggle: document.querySelector("#include-synthetic-toggle"),
   availableCount: document.querySelector("#available-count"),
   sessionSize: document.querySelector("#session-size"),
   selectedCategoriesCount: document.querySelector("#selected-categories-count"),
@@ -33,6 +36,7 @@ const elements = {
   progressLabel: document.querySelector("#progress-label"),
   questionTitle: document.querySelector("#question-title"),
   modeBadge: document.querySelector("#mode-badge"),
+  originBadge: document.querySelector("#origin-badge"),
   scoreLabel: document.querySelector("#score-label"),
   progressFill: document.querySelector("#progress-fill"),
   questionMeta: document.querySelector("#question-meta"),
@@ -67,6 +71,7 @@ async function init() {
     state.categoryMap = new Map(
       state.bank.study_analysis.study_categories.map((category) => [category.id, category]),
     );
+    state.questionMap = new Map(state.bank.questions.map((question) => [question.id, question]));
 
     reconcileSettings();
     renderBankSummary();
@@ -96,6 +101,12 @@ function bindSetupEvents() {
   elements.shuffleToggle.addEventListener("change", () => {
     state.settings.shuffle = elements.shuffleToggle.checked;
     persistSettings();
+  });
+
+  elements.includeSyntheticToggle.addEventListener("change", () => {
+    state.settings.includeSynthetic = elements.includeSyntheticToggle.checked;
+    persistSettings();
+    updateSetupCounts();
   });
 
   elements.categoryList.addEventListener("change", (event) => {
@@ -218,15 +229,20 @@ function reconcileSettings() {
     state.settings.shuffle = true;
   }
 
+  if (typeof state.settings.includeSynthetic !== "boolean") {
+    state.settings.includeSynthetic = false;
+  }
+
   persistSettings();
 }
 
 function renderBankSummary() {
-  const total = state.bank.questions.length;
+  const { total, real, synthetic } = getQuestionOriginCounts(state.bank.questions);
   const categories = getAllCategories().length;
   const firstBucket = getAllCategories()[0];
   elements.bankSummary.textContent =
-    `Practice Test ${state.bank.practice_test} question bank with ${total} questions across ` +
+    `Practice Test ${state.bank.practice_test} question bank with ${real} real misses and ${synthetic} synthetic drills ` +
+    `(${total} questions total) across ` +
     `${categories} study categories. Highest-priority bucket: ${firstBucket.label}.`;
 }
 
@@ -236,6 +252,7 @@ function renderSetup() {
   });
 
   elements.shuffleToggle.checked = state.settings.shuffle;
+  elements.includeSyntheticToggle.checked = state.settings.includeSynthetic;
   renderCategoryList();
   renderQuestionCountOptions();
   updateSetupCounts();
@@ -322,8 +339,12 @@ function updateSetupCounts() {
   const selectedCategories = state.settings.categoryIds.length;
   const sessionSize = Math.min(available, getRequestedQuestionCount(available));
   const totalCategories = getAllCategories().length;
+  const { real, synthetic } = getQuestionOriginCounts(filtered);
   const questionLabel = sessionSize === 1 ? "question" : "questions";
   const categoryLabel = selectedCategories === 1 ? "category" : "categories";
+  const mixText = synthetic
+    ? `${real} real and ${synthetic} synthetic drills match.`
+    : `${real} real questions match. Synthetic drills are off.`;
 
   elements.availableCount.textContent = String(available);
   elements.sessionSize.textContent = String(sessionSize);
@@ -338,10 +359,10 @@ function updateSetupCounts() {
       "No questions match the current category selection. Expand the focus list to build a session.";
   } else if (selectedCategories === totalCategories) {
     elements.selectionHint.textContent =
-      `All categories are active. This run will include ${sessionSize} ${questionLabel}.`;
+      `All categories are active. ${mixText} This run will include ${sessionSize} ${questionLabel}.`;
   } else {
     elements.selectionHint.textContent =
-      `${selectedCategories} ${categoryLabel} selected, ${available} matching questions, ${sessionSize} ${questionLabel} in this run.`;
+      `${selectedCategories} ${categoryLabel} selected, ${available} matching questions, ${mixText} ${sessionSize} ${questionLabel} in this run.`;
   }
 
   renderQuestionCountOptions();
@@ -397,17 +418,7 @@ function prepareQuestionsForSession(questionList) {
     return shuffle(questions);
   }
 
-  return questions.sort((left, right) => {
-    if (left.study_priority_rank !== right.study_priority_rank) {
-      return left.study_priority_rank - right.study_priority_rank;
-    }
-
-    if (left.module !== right.module) {
-      return left.module - right.module;
-    }
-
-    return left.question_number - right.question_number;
-  });
+  return questions.sort(compareQuestions);
 }
 
 function renderQuestion() {
@@ -417,8 +428,10 @@ function renderQuestion() {
   const total = state.session.questions.length;
 
   elements.progressLabel.textContent = `Question ${index} of ${total}`;
-  elements.questionTitle.textContent = `${question.module_label} · Q${question.question_number}`;
+  elements.questionTitle.textContent = formatQuestionTitle(question);
   elements.modeBadge.textContent = state.session.mode === "practice" ? "Practice mode" : "Quiz mode";
+  elements.originBadge.textContent = getQuestionOriginLabel(question);
+  elements.originBadge.className = `badge badge-origin ${isSyntheticQuestion(question) ? "badge-synthetic" : "badge-real"}`;
   elements.scoreLabel.textContent = makeScoreLabel();
   elements.progressFill.style.width = `${(index / total) * 100}%`;
   elements.questionText.textContent = question.question_text;
@@ -450,6 +463,19 @@ function renderQuestionMeta(question) {
   tags.forEach((text) => {
     elements.questionMeta.append(makeTag(text));
   });
+
+  elements.questionMeta.append(
+    makeTag(
+      getQuestionOriginLabel(question),
+      isSyntheticQuestion(question) ? "tag-synthetic" : "tag-real",
+    ),
+  );
+
+  if (isSyntheticQuestion(question)) {
+    elements.questionMeta.append(
+      makeTag(`Based on ${formatQuestionShort(getSourceQuestion(question))}`),
+    );
+  }
 }
 
 function renderChoices(question, answerState) {
@@ -528,8 +554,9 @@ function renderFeedback(question, answerState) {
 
   if (question.selected_incorrect_answer) {
     const originalMiss = document.createElement("p");
+    const missLabel = isSyntheticQuestion(question) ? "Trap answer" : "Original missed answer";
     originalMiss.innerHTML =
-      `<strong>Original missed answer:</strong> ${question.selected_incorrect_answer.letter}. ${escapeHtml(
+      `<strong>${missLabel}:</strong> ${question.selected_incorrect_answer.letter}. ${escapeHtml(
         question.selected_incorrect_answer.text,
       )}`;
     elements.feedbackCard.append(originalMiss);
@@ -613,9 +640,11 @@ function renderResults() {
   const total = reviewItems.length;
   const missedCount = total - correctCount;
   const percent = total ? Math.round((correctCount / total) * 100) : 0;
+  const { real, synthetic } = getQuestionOriginCounts(reviewItems.map((item) => item.question));
 
   elements.resultsSummary.textContent =
-    `${correctCount} correct out of ${total}. ${percent}% accuracy this run.`;
+    `${correctCount} correct out of ${total}. ${percent}% accuracy this run. ` +
+    `${real} real, ${synthetic} synthetic.`;
 
   elements.resultsCards.replaceChildren(
     makeResultCard("Accuracy", `${percent}%`),
@@ -692,11 +721,18 @@ function renderReviewList(reviewItems) {
     article.className = `review-item ${item.isCorrect ? "correct-review" : "incorrect-review"}`;
 
     const heading = document.createElement("h3");
-    heading.textContent = `${question.module_label} Q${question.question_number} · ${question.domain}`;
+    heading.textContent = `${formatQuestionTitle(question)} · ${question.domain}`;
 
     const category = document.createElement("p");
     category.className = "review-answer";
     category.textContent = question.study_category_label;
+
+    const origin = document.createElement("p");
+    origin.innerHTML = `<strong>Type:</strong> ${escapeHtml(getQuestionOriginLabel(question))}${
+      isSyntheticQuestion(question)
+        ? ` · ${escapeHtml(`Based on ${formatQuestionShort(getSourceQuestion(question))}`)}`
+        : ""
+    }`;
 
     const prompt = document.createElement("p");
     prompt.textContent = question.question_text.split("\n").slice(-1)[0];
@@ -713,7 +749,7 @@ function renderReviewList(reviewItems) {
         question.correct_answer.text,
       )}`;
 
-    article.append(heading, category, prompt, selected, correct);
+    article.append(heading, category, origin, prompt, selected, correct);
 
     if (question.answer_explanation?.why_correct) {
       const rationale = document.createElement("p");
@@ -776,7 +812,13 @@ function getAllCategories() {
 
 function getFilteredQuestionsFromSettings() {
   const allowed = new Set(state.settings.categoryIds);
-  return state.bank.questions.filter((question) => allowed.has(question.study_category_id));
+  return state.bank.questions.filter((question) => {
+    if (!allowed.has(question.study_category_id)) {
+      return false;
+    }
+
+    return state.settings.includeSynthetic || !isSyntheticQuestion(question);
+  });
 }
 
 function getRequestedQuestionCount(available) {
@@ -808,6 +850,68 @@ function makeScoreLabel() {
   }
 
   return `Answers saved: ${answers.length} / ${state.session.questions.length}`;
+}
+
+function getQuestionOriginCounts(questionList) {
+  return questionList.reduce((counts, question) => {
+    counts.total += 1;
+    if (isSyntheticQuestion(question)) {
+      counts.synthetic += 1;
+    } else {
+      counts.real += 1;
+    }
+    return counts;
+  }, {
+    total: 0,
+    real: 0,
+    synthetic: 0,
+  });
+}
+
+function isSyntheticQuestion(question) {
+  return question.question_source_type === "synthetic";
+}
+
+function getSourceQuestion(question) {
+  return state.questionMap.get(question.source_question_id) || question;
+}
+
+function getQuestionOriginLabel(question) {
+  return isSyntheticQuestion(question) ? "Synthetic drill" : "Real SAT miss";
+}
+
+function formatQuestionShort(question) {
+  return `${question.module_label} Q${question.question_number}`;
+}
+
+function formatQuestionTitle(question) {
+  if (!isSyntheticQuestion(question)) {
+    return `${question.module_label} · Q${question.question_number}`;
+  }
+
+  return `${question.module_label} · Q${question.question_number} · ${question.synthetic_variant_label}`;
+}
+
+function compareQuestions(left, right) {
+  if (left.study_priority_rank !== right.study_priority_rank) {
+    return left.study_priority_rank - right.study_priority_rank;
+  }
+
+  if (left.module !== right.module) {
+    return left.module - right.module;
+  }
+
+  if (left.question_number !== right.question_number) {
+    return left.question_number - right.question_number;
+  }
+
+  const leftRank = isSyntheticQuestion(left) ? 1 : 0;
+  const rightRank = isSyntheticQuestion(right) ? 1 : 0;
+  if (leftRank !== rightRank) {
+    return leftRank - rightRank;
+  }
+
+  return (left.synthetic_variant_index || 0) - (right.synthetic_variant_index || 0);
 }
 
 function makeTag(text, extraClass = "") {

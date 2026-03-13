@@ -361,6 +361,23 @@ select:focus-visible {
   padding: 0 16px;
 }
 
+.toggle-field-detail {
+  padding: 14px 16px;
+  align-items: flex-start;
+}
+
+.toggle-copy {
+  display: grid;
+  gap: 4px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.toggle-copy strong {
+  color: var(--text);
+  font-size: 0.96rem;
+}
+
 .toggle-field input,
 .mode-card input,
 .category-card input {
@@ -540,6 +557,27 @@ select:focus-visible {
 .badge {
   background: rgba(255, 255, 255, 0.78);
   border-color: rgba(31, 95, 91, 0.14);
+}
+
+.badge-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.badge-real,
+.tag-real {
+  background: rgba(29, 101, 95, 0.12);
+  border-color: rgba(29, 101, 95, 0.22);
+  color: var(--accent-strong);
+}
+
+.badge-synthetic,
+.tag-synthetic {
+  background: rgba(125, 91, 27, 0.14);
+  border-color: rgba(125, 91, 27, 0.24);
+  color: #6e4f18;
 }
 
 .tag.priority-high {

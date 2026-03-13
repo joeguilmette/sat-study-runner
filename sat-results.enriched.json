@@ -93,7 +93,96 @@
         "why_correct": "The sentence sets up a paradox: water was necessary for life, but when Earth was covered by oceans it likely hindered the formation of early biomolecules. \"Hampered\" is the only choice that matches that negative cause-and-effect idea.",
         "why_selected_answer_is_wrong": "\"Imitated\" means copied or mimicked, which does not make sense with \"the formation of proteins and other biomolecules.\" The sentence needs a verb meaning interfered with, not resembled.",
         "takeaway": "Use contrast clues like \"although\" and the stated paradox to predict whether the blank should be positive or negative before reading the options."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q3",
+      "question_family_id": "m1-q3",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q3-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 3,
+      "domain": "Craft and Structure",
+      "question_text": "In a study of desert cyanobacteria, researchers confronted a familiar paradox: although intense sunlight supplies the energy these organisms need for photosynthesis, during prolonged droughts the accompanying ultraviolet exposure likely ___ the repair of DNA damage in colonies growing on exposed rock.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "chronicled",
+        "B": "hindered",
+        "C": "mirrored",
+        "D": "rewarded"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "mirrored"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "hindered"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The sentence presents a paradox: sunlight is useful, but the ultraviolet exposure that comes with it interferes with DNA repair. \"Hindered\" fits that negative cause-and-effect relationship.",
+        "why_selected_answer_is_wrong": "\"Mirrored\" means reflected or resembled. The sentence needs a verb meaning impeded the repair process, not one suggesting similarity.",
+        "takeaway": "In paradox questions, the blank usually captures the surprising downside named after the contrast word."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q3",
+      "question_family_id": "m1-q3",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q3-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 3,
+      "domain": "Craft and Structure",
+      "question_text": "Conservators working with fragile manuscripts face another paradox: although circulating air can help prevent mold, in archives with extremely low humidity that same airflow likely ___ the preservation of brittle paper and faded ink.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "cataloged",
+        "B": "undermined",
+        "C": "echoed",
+        "D": "praised"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "echoed"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "undermined"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The passage says airflow helps in one way but harms preservation in very dry conditions. \"Undermined\" precisely conveys that it worked against preservation.",
+        "why_selected_answer_is_wrong": "\"Echoed\" has no logical connection to preserving paper and ink. The sentence needs a verb showing damage or interference.",
+        "takeaway": "When a sentence says something is helpful in one respect but harmful in another, predict a negative verb before checking the choices."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q3",
+      "question_family_id": "m1-q3",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q4",
@@ -132,7 +221,96 @@
         "why_correct": "The next clause says the mural may not sound ambitious at first, even though it is actually complex and demanding. \"Unassuming\" means modest or not immediately impressive, which fits that contrast.",
         "why_selected_answer_is_wrong": "\"Incongruous\" means out of place or not in harmony. The issue is not that the mural sounds mismatched; it is that a casual description makes it seem simpler and less ambitious than it really is.",
         "takeaway": "When a sentence pivots with \"but in fact,\" choose the word that best describes the first, mistaken impression."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q4",
+      "question_family_id": "m1-q4",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q4-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 4,
+      "domain": "Craft and Structure",
+      "question_text": "A brief description of Maya Ito's installation Tide Ledger can make the work seem ___ - a room lined with shipping receipts and weathered ledgers may not sound especially ambitious - but in fact the installation is a layered reflection on migration, trade, and environmental loss.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "unassuming",
+        "B": "calculating",
+        "C": "incongruous",
+        "D": "pretentious"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "incongruous"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "unassuming"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The sentence contrasts an initially modest impression with the revelation that the work is actually ambitious and complex. \"Unassuming\" captures that first impression.",
+        "why_selected_answer_is_wrong": "\"Incongruous\" means out of place or mismatched. The description does not make the installation seem mismatched; it makes it seem simpler than it really is.",
+        "takeaway": "If the sentence pivots from a plain first impression to a richer reality, the blank should describe the plain impression, not a mismatch."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q4",
+      "question_family_id": "m1-q4",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q4-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 4,
+      "domain": "Craft and Structure",
+      "question_text": "At first glance, Joaquin Mendez's short film Quiet Block can seem ___ - a sequence of static shots of apartment windows may not sound particularly daring - but the film turns out to be an intricate study of surveillance, privacy, and urban loneliness.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "modest",
+        "B": "tactical",
+        "C": "incongruous",
+        "D": "self-important"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "incongruous"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "modest"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The setup says the film may not sound ambitious at first, so the blank should mean not immediately impressive. \"Modest\" fits that idea.",
+        "why_selected_answer_is_wrong": "\"Incongruous\" would suggest the film sounds oddly out of place, but the passage is about understatement, not mismatch.",
+        "takeaway": "Use the clause after the dash to define the mistaken first impression as precisely as possible."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q4",
+      "question_family_id": "m1-q4",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q5",
@@ -171,7 +349,96 @@
         "why_correct": "The passage first tells what happened when wolves were eradicated, then explains that scientists recognized the wolves' ecological importance and reintroduced them. Choice B captures that two-part structure without adding motives the text never gives.",
         "why_selected_answer_is_wrong": "Choice D invents an explanation for why Yellowstone allowed eradication, but the passage never gives one. It only states that the wolves were eradicated and later restored because they were essential to the food chain.",
         "takeaway": "For structure questions, summarize each sentence's job in order and reject choices that add causes, motives, or judgments the passage does not state."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q5",
+      "question_family_id": "m1-q5",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q5-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 5,
+      "domain": "Craft and Structure",
+      "question_text": "After a coastal city drained much of its marshland in the 1930s, seasonal flooding became more severe and bird populations declined. As environmental scientists documented the marshes' role in absorbing stormwater and supporting wildlife, local officials began restoring wetland areas. Within a few years, flood damage had lessened noticeably.\nWhich choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It summarizes a problem that developed after the city drained its marshland and then offers several possible solutions to that problem.",
+        "B": "It mentions the draining of the marshland and then explains why the marshes were eventually restored.",
+        "C": "It presents a claim about the health of the marshland and then gives specific examples to support that claim.",
+        "D": "It explains why city leaders chose to drain the marshland and then discusses the consequences of restoring it."
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "It explains why city leaders chose to drain the marshland and then discusses the consequences of restoring it."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "It mentions the draining of the marshland and then explains why the marshes were eventually restored."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The passage first states that the marshes were drained, then explains that scientists recognized their value and officials restored them. Choice B matches that sequence exactly.",
+        "why_selected_answer_is_wrong": "Choice D adds a reason city leaders drained the marshland, but the passage never gives one. It only describes what happened and why restoration followed.",
+        "takeaway": "For structure questions, map the passage in order and avoid answers that invent a motive for an earlier event."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q5",
+      "question_family_id": "m1-q5",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q5-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 5,
+      "domain": "Craft and Structure",
+      "question_text": "When a school district sharply reduced recess time in the 1990s, teachers soon reported more classroom restlessness and fewer opportunities for informal peer interaction. After child-development researchers emphasized the value of unstructured play, the district reinstated longer recess periods. Reports of student conflict and inattention then declined.\nWhich choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It summarizes a problem that arose after recess was reduced and then proposes a range of possible fixes for that problem.",
+        "B": "It mentions the reduction of recess and then explains why longer recess was eventually reinstated.",
+        "C": "It presents a claim about the benefits of recess and then offers several anecdotes to support that claim.",
+        "D": "It explains why administrators decided to reduce recess and then discusses the consequences of bringing it back."
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "It explains why administrators decided to reduce recess and then discusses the consequences of bringing it back."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "It mentions the reduction of recess and then explains why longer recess was eventually reinstated."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The text first describes recess being reduced, then explains that research about play led the district to restore it. Choice B captures the passage structure cleanly.",
+        "why_selected_answer_is_wrong": "Choice D wrongly says the passage explains why administrators reduced recess. That cause is never supplied.",
+        "takeaway": "If the passage gives only the reason for a later reversal, do not pick an answer that claims it also explains the original decision."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q5",
+      "question_family_id": "m1-q5",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q6",
@@ -210,7 +477,96 @@
         "why_correct": "The underlined comparison to how awake, sighted people track real objects gives LaBerge's team a concrete point of reference. That comparable real-world behavior helps support the conclusion that dream objects are being perceived rather than merely imagined.",
         "why_selected_answer_is_wrong": "Choice A reverses the logic of the paragraph. The comparison is evidence for the team's conclusion, not evidence that undermines an initial hypothesis.",
         "takeaway": "On function questions, ask what the underlined part is doing right there: evidence, comparison, qualification, or implication."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q6",
+      "question_family_id": "m1-q6",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q6-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 6,
+      "domain": "Craft and Structure",
+      "question_text": "Curious about how people mentally navigate spaces they have already explored, Elena Park and team asked volunteers to walk through a virtual maze and later imagine retracing the route while following moving dots on a screen. Participants' hand motions during the imagery task were highly consistent. [Underlined: The steadiness of those motions closely matched how experienced hikers track bends on a marked trail in daylight,] suggesting to the team that imagined navigation recruits systems used in real spatial perception.\nWhich choice best states the function of the underlined portion in the text as a whole?",
+      "choices": {
+        "A": "To offer key evidence that undermines Park and team's initial hypothesis",
+        "B": "To show the unexpected result that led Park and team to change the focus of their study",
+        "C": "To illustrate an important real-world implication of Park and team's main finding",
+        "D": "To identify a comparable circumstance that helps justify Park and team's conclusion"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "To offer key evidence that undermines Park and team's initial hypothesis"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "To identify a comparable circumstance that helps justify Park and team's conclusion"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The underlined comparison supplies a real-world analog: imagined navigation resembles real navigation by hikers. That comparable circumstance helps support the researchers' conclusion.",
+        "why_selected_answer_is_wrong": "Choice A gets the direction wrong. The comparison strengthens the conclusion instead of undermining any earlier hypothesis.",
+        "takeaway": "When a sentence says one behavior matched another familiar behavior, it is usually providing supporting comparison evidence."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q6",
+      "question_family_id": "m1-q6",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q6-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 6,
+      "domain": "Craft and Structure",
+      "question_text": "To learn how musicians hear notes internally, Priya Raman and colleagues asked trained pianists to study short melodies and then silently imagine replaying them while tapping a key in time. The timing of the taps proved unusually regular. [Underlined: That timing closely matched how pianists keep tempo when actually performing a memorized passage,] suggesting that imagined listening relies on mechanisms related to real musical perception.\nWhich choice best states the function of the underlined portion in the text as a whole?",
+      "choices": {
+        "A": "To offer key evidence that undermines Raman and colleagues' initial hypothesis",
+        "B": "To show the unexpected result that led Raman and colleagues to change the focus of their study",
+        "C": "To illustrate an important real-world implication of Raman and colleagues' main finding",
+        "D": "To identify a comparable circumstance that helps justify Raman and colleagues' conclusion"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "To offer key evidence that undermines Raman and colleagues' initial hypothesis"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "To identify a comparable circumstance that helps justify Raman and colleagues' conclusion"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The underlined part compares silent imagined timing to actual performance timing. That similarity is evidence supporting the conclusion about real perception systems.",
+        "why_selected_answer_is_wrong": "Nothing in the paragraph suggests the comparison undermines the study. It is presented as confirming evidence.",
+        "takeaway": "On function questions, distinguish between evidence that supports a conclusion and evidence that contradicts it."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q6",
+      "question_family_id": "m1-q6",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q7",
@@ -249,7 +605,96 @@
         "why_correct": "Text 1 suggests backlash comes from the artwork's norm-defying nature, but Text 2 says negative reactions also depend on whether the piece is effectively integrated into its surroundings. That means the critics in Text 2 would argue that backlash is not caused only by the work's inherent qualities.",
         "why_selected_answer_is_wrong": "Choice C shifts the issue to whether bland, norm-reinforcing art placates people. Text 2 does not discuss that claim; it focuses on context and presentation as additional causes of backlash.",
         "takeaway": "In paired-text questions, isolate the exact point of disagreement in one sentence before testing the answer choices."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q7",
+      "question_family_id": "m1-q7",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q7-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 7,
+      "domain": "Craft and Structure",
+      "question_text": "Text 1\nExperimental murals in train stations often spark public complaints because commuters expect agreeable decoration rather than challenging imagery. In this view, murals that are visually and conceptually disruptive almost inevitably provoke backlash.\nText 2\nSome critics argue that station murals are judged harshly partly because they appear in settings built for speed and transit rather than reflection. They note that similarly challenging works displayed in galleries are often received more favorably when viewers are given cues that invite close attention.\nBased on the texts, how would the critics mentioned in Text 2 most likely respond to the underlined claim in Text 1?",
+      "choices": {
+        "A": "By arguing that the reason members of the general public might disagree about a public artwork's merits is unrelated to the unconventionality of its appearance and ideas",
+        "B": "By agreeing with the idea that only works of art that are universally appealing are suitable for displaying in public spaces",
+        "C": "By disputing the notion that civic leaders and community members are easily placated by art that is intended mainly to reinforce social norms",
+        "D": "By contending that the kinds of reactions controversial public artworks often receive aren't exclusively the result of attributes inherent in the works themselves"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "By disputing the notion that civic leaders and community members are easily placated by art that is intended mainly to reinforce social norms"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "By contending that the kinds of reactions controversial public artworks often receive aren't exclusively the result of attributes inherent in the works themselves"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "paired-text-reasoning",
+      "study_category_label": "Craft and Structure: paired-text response and disagreement",
+      "study_priority_rank": 7,
+      "study_priority_band": "if time remains",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Text 2 says reaction depends not just on the work itself but also on the context in which people encounter it. That means backlash is not solely the result of the mural's disruptive qualities.",
+        "why_selected_answer_is_wrong": "Choice C switches the issue to whether bland art placates people. Text 2 never takes up that point; it focuses on context and audience preparation.",
+        "takeaway": "Find the precise place where Text 2 qualifies Text 1. Here, the qualification is about context, not about bland art."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q7",
+      "question_family_id": "m1-q7",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q7-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 7,
+      "domain": "Craft and Structure",
+      "question_text": "Text 1\nAvant-garde theater staged in city plazas often draws criticism because the performances reject the familiar pacing and storytelling that public audiences expect. According to this view, plaza performances that refuse to be accessible almost inevitably invite hostility.\nText 2\nOther critics respond that public theater is frequently encountered by people who were not seeking out a performance at all. They argue that unconventional productions receive especially negative reactions when the surrounding space offers no cues about how to watch or interpret them, unlike theatergoers who enter a playhouse prepared to engage.\nBased on the texts, how would the critics mentioned in Text 2 most likely respond to the underlined claim in Text 1?",
+      "choices": {
+        "A": "By arguing that the reason members of the general public might disagree about a public artwork's merits is unrelated to the unconventionality of its appearance and ideas",
+        "B": "By agreeing with the idea that only works of art that are universally appealing are suitable for displaying in public spaces",
+        "C": "By disputing the notion that civic leaders and community members are easily placated by art that is intended mainly to reinforce social norms",
+        "D": "By contending that the kinds of reactions controversial public artworks often receive aren't exclusively the result of attributes inherent in the works themselves"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "By disputing the notion that civic leaders and community members are easily placated by art that is intended mainly to reinforce social norms"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "By contending that the kinds of reactions controversial public artworks often receive aren't exclusively the result of attributes inherent in the works themselves"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "paired-text-reasoning",
+      "study_category_label": "Craft and Structure: paired-text response and disagreement",
+      "study_priority_rank": 7,
+      "study_priority_band": "if time remains",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Text 2 argues that setting and audience expectation also shape reactions, so hostility is not caused only by the production's unconventional features.",
+        "why_selected_answer_is_wrong": "Choice C is about whether safe, conventional work satisfies people. Text 2 instead emphasizes viewing conditions and context.",
+        "takeaway": "In paired-text disagreement questions, distinguish the topic from the exact causal claim being challenged."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q7",
+      "question_family_id": "m1-q7",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q13",
@@ -288,7 +733,96 @@
         "why_correct": "The table shows Navajo-Churro inner fibers range from 10 to 35 microns, so at their softest they are 10 microns wide. That is finer than mouflon inner fibers at 15 microns and finer than Merino inner fibers at 17 to 21 microns, so choice A is fully supported.",
         "why_selected_answer_is_wrong": "Choice C says domestication increased the minimum inner-fiber diameter in both domestic breeds, but Navajo-Churro's minimum is 10, which is lower than the mouflon's 15. That directly contradicts the table.",
         "takeaway": "For table questions, check every comparative word in an answer against the numbers one by one, especially minimums, maximums, and exceptions."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q13",
+      "question_family_id": "m1-q13",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q13-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 13,
+      "domain": "Information and Ideas",
+      "question_text": "Type of rabbit\nFur Characteristics of Wild European Rabbit, Valley Angora, and Highland Angora\nDiameter of guard hairs (in microns) Diameter of undercoat fibers (in microns)\nValley Angora\n20-26\n16-19\nHighland Angora\n35 or higher\n11-30\nWild European Rabbit\n90\n18\nThe wild European rabbit has a coarse outer coat and a softer undercoat. In some domesticated breeds, such as the Valley Angora, the outer fiber is only slightly coarser than the undercoat, making the fur soft overall. Meanwhile, the Highland Angora has been bred to retain a sharper distinction between outer and inner fibers. Yet a comparison of all three rabbits reveals that\nWhich choice most effectively uses data from the table to complete the text?",
+      "choices": {
+        "A": "the breeding process that allowed the Highland Angora to retain its coarse guard hairs also resulted in undercoat fibers that, at their finest, are finer than either the wild rabbit's or the Valley Angora's undercoat fibers.",
+        "B": "the Highland Angora more closely resembles its wild ancestor in the uniform softness of its undercoat fibers, while the Valley Angora more closely resembles the wild rabbit in the variability of its guard hairs.",
+        "C": "domestication resulted in a counterintuitive increase in the undercoat's minimum diameter, making the undercoat of both domestic breeds less soft than the wild rabbit's undercoat.",
+        "D": "domestication of the wild rabbit and the later breeding that produced the Valley Angora and Highland Angora resulted in softer guard hairs and undercoat fibers alike."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "domestication resulted in a counterintuitive increase in the undercoat's minimum diameter, making the undercoat of both domestic breeds less soft than the wild rabbit's undercoat."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "the breeding process that allowed the Highland Angora to retain its coarse guard hairs also resulted in undercoat fibers that, at their finest, are finer than either the wild rabbit's or the Valley Angora's undercoat fibers."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "data-and-table-reasoning",
+      "study_category_label": "Information and Ideas: tables, charts, and quantitative comparison",
+      "study_priority_rank": 4,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "Highland Angora undercoat fibers range down to 11 microns, which is finer than the wild rabbit's 18-micron undercoat and the Valley Angora's 16-to-19-micron range. Choice A states that relationship accurately.",
+        "why_selected_answer_is_wrong": "Choice C claims domestication increased the minimum undercoat diameter in both domestic breeds, but Highland Angora has a lower minimum than the wild rabbit. The table directly disproves that claim.",
+        "takeaway": "Range questions turn on the endpoints. Always compare the minimum and maximum values explicitly before choosing."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q13",
+      "question_family_id": "m1-q13",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q13-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 13,
+      "domain": "Information and Ideas",
+      "question_text": "Type of goat\nFiber Characteristics of Wild Ibex, Silver Cashmere, and Heritage Cashmere Goats\nDiameter of outer coat fibers (in microns) Diameter of inner coat fibers (in microns)\nSilver Cashmere\n22-28\n15-19\nHeritage Cashmere\n38 or higher\n9-31\nWild Ibex\n110\n14\nWild ibex have a coarse outer coat and a softer inner coat. In some domesticated breeds, such as the Silver Cashmere, the outer fiber is only somewhat coarser than the inner, producing fiber that is soft overall. The Heritage Cashmere, however, has been bred to preserve a strong contrast between outer and inner fibers. Yet a comparison of all three goats reveals that\nWhich choice most effectively uses data from the table to complete the text?",
+      "choices": {
+        "A": "the breeding process that helped the Heritage Cashmere retain a coarse outer coat also produced inner fibers that, at their softest, are softer than either the wild ibex's or the Silver Cashmere's inner fibers.",
+        "B": "the Heritage Cashmere more closely resembles the wild ibex in the uniform softness of its inner fibers, while the Silver Cashmere more closely resembles the wild ibex in the variability of its outer fibers.",
+        "C": "domestication increased the minimum diameter of the inner fibers in both domestic breeds, making them less soft than the wild ibex's inner coat.",
+        "D": "domestication of the wild ibex and the later selection of the Silver Cashmere and Heritage Cashmere led to softer outer and inner fibers in both breeds."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "domestication increased the minimum diameter of the inner fibers in both domestic breeds, making them less soft than the wild ibex's inner coat."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "the breeding process that helped the Heritage Cashmere retain a coarse outer coat also produced inner fibers that, at their softest, are softer than either the wild ibex's or the Silver Cashmere's inner fibers."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "data-and-table-reasoning",
+      "study_category_label": "Information and Ideas: tables, charts, and quantitative comparison",
+      "study_priority_rank": 4,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "Heritage Cashmere inner fibers go as low as 9 microns, below the wild ibex's 14 and the Silver Cashmere's 15-to-19 range. Choice A is the only answer that reflects that comparison correctly.",
+        "why_selected_answer_is_wrong": "Choice C says both domestic breeds have a higher minimum inner-fiber diameter than the wild ibex, but Heritage Cashmere has a lower one.",
+        "takeaway": "A single outlier at the low end can make an otherwise coarse breed the correct answer. Check the actual numbers, not the overall feel of the description."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q13",
+      "question_family_id": "m1-q13",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q17",
@@ -327,7 +861,96 @@
         "why_correct": "The phrase \"ratified in 1804\" is a nonessential modifier interrupting the main clause \"The 12th Amendment ... separated the elections.\" It needs a comma after 1804 to close that interrupting phrase.",
         "why_selected_answer_is_wrong": "Choice D leaves the modifier without a closing comma, so the sentence is not punctuated correctly. The year is not part of the core subject.",
         "takeaway": "When an interrupting phrase can be removed without changing the sentence's core grammar, it should usually be set off with matching punctuation on both sides."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q17",
+      "question_family_id": "m1-q17",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q17-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 17,
+      "domain": "Standard English Conventions",
+      "question_text": "The Panama Canal, completed in ___ connected the Atlantic and Pacific Oceans by way of Central America.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "1914-",
+        "B": "1914,",
+        "C": "1914:",
+        "D": "1914"
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "1914"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "1914,"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "\"Completed in 1914\" is a nonessential modifier interrupting the sentence, so it should be closed with a comma after the year.",
+        "why_selected_answer_is_wrong": "Choice D leaves the interrupting phrase without closing punctuation.",
+        "takeaway": "If a date appears inside a removable modifier, use matching punctuation to set that modifier off from the main clause."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q17",
+      "question_family_id": "m1-q17",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q17-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 17,
+      "domain": "Standard English Conventions",
+      "question_text": "The city library, renovated in ___ reopened with expanded reading rooms and archival space.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "2008-",
+        "B": "2008,",
+        "C": "2008:",
+        "D": "2008"
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "2008"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "2008,"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The phrase \"renovated in 2008\" interrupts the core clause \"The city library reopened,\" so a comma is needed after 2008.",
+        "why_selected_answer_is_wrong": "Without the comma in choice D, the nonessential modifier is not properly set off.",
+        "takeaway": "Find the core subject and verb first; then punctuate any interrupting date phrase around that core."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q17",
+      "question_family_id": "m1-q17",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q23",
@@ -366,7 +989,96 @@
         "why_correct": "The first sentence gives an explanation for the barnacles' movement: passive displacement by water currents. The next sentence reports movement against the water flow, so it weakens that explanation rather than contradicting the movement itself.",
         "why_selected_answer_is_wrong": "Choice A points to the wrong noun. The new evidence is not contrary to the phenomenon of shifting position; it is contrary to the explanation that currents caused the shifting.",
         "takeaway": "For transitions, identify whether the next sentence supports or undercuts the previous claim, and be precise about which claim it is responding to."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q23",
+      "question_family_id": "m1-q23",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q23-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 23,
+      "domain": "Expression of Ideas",
+      "question_text": "Long assumed to drift only because of changing currents, juvenile mangrove seeds have been observed to alter their direction over time - a pattern often explained as passive displacement by tidal flow. ___ a field team found that the seeds sometimes turned into sheltered eddies and thus away from the strongest current, behavior consistent with shape-based steering rather than simple drift.\nWhich choice completes the text with the most logical transition?",
+      "choices": {
+        "A": "Contrary to this phenomenon,",
+        "B": "Undermining this explanation,",
+        "C": "Drawing a similar conclusion,",
+        "D": "Confirming this hypothesis,"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Contrary to this phenomenon,"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "Undermining this explanation,"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "rhetorical-synthesis-and-transitions",
+      "study_category_label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+      "study_priority_rank": 5,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium-high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The second sentence weakens the explanation that currents alone caused the movement. \"Undermining this explanation\" describes that relationship exactly.",
+        "why_selected_answer_is_wrong": "Choice A says the new evidence is contrary to the movement itself, but the movement still occurs. What changes is the explanation for it.",
+        "takeaway": "Be precise about what the next sentence is challenging: the phenomenon or the explanation of the phenomenon."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q23",
+      "question_family_id": "m1-q23",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q23-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 23,
+      "domain": "Expression of Ideas",
+      "question_text": "For years, scientists assumed that certain sand dollars shift position on the seafloor only because of wave action, and the animals' slow movement was attributed to passive rolling by water. ___ divers observed the sand dollars creeping toward patches of algae and sometimes moving against the direction of the current, behavior more consistent with self-propelled motion.\nWhich choice completes the text with the most logical transition?",
+      "choices": {
+        "A": "Contrary to this phenomenon,",
+        "B": "Undermining this explanation,",
+        "C": "Drawing a similar conclusion,",
+        "D": "Confirming this hypothesis,"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Contrary to this phenomenon,"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "Undermining this explanation,"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "rhetorical-synthesis-and-transitions",
+      "study_category_label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+      "study_priority_rank": 5,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium-high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The diver observations call the current-based explanation into question. The motion remains real, but the explanation is weakened.",
+        "why_selected_answer_is_wrong": "Choice A misidentifies the target of the contrast. The new evidence is not contrary to the sand dollars moving; it is contrary to the idea that water alone moves them.",
+        "takeaway": "Transition questions often hinge on the noun after the transition. Make sure it points to the right prior idea."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q23",
+      "question_family_id": "m1-q23",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m1-q27",
@@ -405,7 +1117,96 @@
         "why_correct": "The goal is to explain the sculpture's specific historical context, so the best answer should connect the work to a historical event and time frame. Choice C does that by linking the 1867 sculpture to the 1863 Emancipation Proclamation.",
         "why_selected_answer_is_wrong": "Choice A gives interpretation and visual description, but it does not place the sculpture in its historical moment. The question asks for context, not praise or imagery.",
         "takeaway": "In notes-to-sentence questions, match the answer to the stated writing goal, not just to facts that are true."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m1-q27",
+      "question_family_id": "m1-q27",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m1-q27-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 27,
+      "domain": "Expression of Ideas",
+      "question_text": "While researching a topic, a student has taken the following notes:\n- Diego Rivera completed the mural cycle Detroit Industry in 1933.\n- The murals are housed at the Detroit Institute of Arts.\n- They depict factory workers and industrial machines.\n- The murals were created during the Great Depression.\n- Rivera was interested in labor and public art.\n- Many critics praise the murals' scale and energy.\nThe student wants to explain the murals' specific historical context. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": {
+        "A": "Critics often praise Detroit Industry for its scale and energy, and the murals show workers operating large industrial machines.",
+        "B": "Detroit Industry, a mural cycle by Diego Rivera, is housed at the Detroit Institute of Arts and reflects Rivera's interest in public art.",
+        "C": "Completed in 1933, Rivera's Detroit Industry murals were created during the Great Depression, when industrial labor was central to public debate.",
+        "D": "Diego Rivera, who cared deeply about labor, finished Detroit Industry in 1933 and filled the murals with images of factory workers."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Critics often praise Detroit Industry for its scale and energy, and the murals show workers operating large industrial machines."
+      },
+      "correct_answer": {
+        "letter": "C",
+        "text": "Completed in 1933, Rivera's Detroit Industry murals were created during the Great Depression, when industrial labor was central to public debate."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "rhetorical-synthesis-and-transitions",
+      "study_category_label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+      "study_priority_rank": 5,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium-high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "Historical context means placing the work in relation to a specific time and event or era. Choice C does that by linking the 1933 murals to the Great Depression.",
+        "why_selected_answer_is_wrong": "Choice A offers description and critical reaction, but it does not situate the murals in a historical moment.",
+        "takeaway": "When the goal is historical context, the best answer usually ties the work to a dated event, movement, or era."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q27",
+      "question_family_id": "m1-q27",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m1-q27-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 1,
+      "module_label": "Module 1",
+      "question_number": 27,
+      "domain": "Expression of Ideas",
+      "question_text": "While researching a topic, a student has taken the following notes:\n- Dorothea Lange took Migrant Mother in 1936.\n- The photograph shows a mother with children leaning against her.\n- It became one of the best-known images of the Great Depression.\n- Many farm families faced severe hardship during the Dust Bowl and Depression.\n- Lange worked for the Farm Security Administration.\n- Critics often describe the image as emotionally powerful.\nThe student wants to explain the photograph's specific historical context. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": {
+        "A": "Critics often describe Migrant Mother as emotionally powerful, and the photograph shows a mother with children leaning against her.",
+        "B": "Taken by Farm Security Administration photographer Dorothea Lange, Migrant Mother became one of the best-known photographs in US history.",
+        "C": "Taken in 1936, Migrant Mother emerged during the Great Depression, when many farm families were struggling through economic crisis and Dust Bowl conditions.",
+        "D": "Dorothea Lange's 1936 photograph Migrant Mother shows a mother with children leaning against her and has become widely recognized."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Critics often describe Migrant Mother as emotionally powerful, and the photograph shows a mother with children leaning against her."
+      },
+      "correct_answer": {
+        "letter": "C",
+        "text": "Taken in 1936, Migrant Mother emerged during the Great Depression, when many farm families were struggling through economic crisis and Dust Bowl conditions."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "rhetorical-synthesis-and-transitions",
+      "study_category_label": "Expression of Ideas: transitions and notes-to-sentence synthesis",
+      "study_priority_rank": 5,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium-high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "Choice C connects the photograph to the Great Depression and Dust Bowl hardship, which is exactly the kind of historical background the student wants.",
+        "why_selected_answer_is_wrong": "Choice A stays with description and evaluation rather than historical context.",
+        "takeaway": "For notes synthesis, discard any choice that is true but does not perform the exact writing task named in the prompt."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m1-q27",
+      "question_family_id": "m1-q27",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q1",
@@ -444,7 +1245,96 @@
         "why_correct": "The new archaeological evidence shows the old timeline was wrong by at least 1,000 years. \"Contradicted\" is the precise word for evidence that conflicts with and overturns an earlier view.",
         "why_selected_answer_is_wrong": "\"Investigated\" only means examined or studied. The sentence needs a word showing that the evidence conflicts with the old claim, not merely that scholars looked into it.",
         "takeaway": "When new evidence changes an earlier belief, look for a verb that captures the relationship between the evidence and the prior claim."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q1",
+      "question_family_id": "m2-q1",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q1-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 1,
+      "domain": "Craft and Structure",
+      "question_text": "Historians once believed that glassmaking reached northern Europe only in the first century CE, but excavations at several Baltic settlements have ___ that view by uncovering evidence of local glass production centuries earlier.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "investigated",
+        "B": "misread",
+        "C": "anticipated",
+        "D": "contradicted"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "investigated"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "contradicted"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The new evidence shows the earlier view was wrong, so the precise verb is \"contradicted.\"",
+        "why_selected_answer_is_wrong": "\"Investigated\" only means examined. The sentence needs a word showing conflict with the old view.",
+        "takeaway": "When evidence overturns an earlier belief, choose the verb that states that conflict directly."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q1",
+      "question_family_id": "m2-q1",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q1-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 1,
+      "domain": "Craft and Structure",
+      "question_text": "Astronomers had long assumed that exoplanet K2-117 lacked any substantial atmosphere, but recent spectral data have ___ that assumption by revealing the presence of water vapor around the planet.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "investigated",
+        "B": "misinterpreted",
+        "C": "anticipated",
+        "D": "contradicted"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "investigated"
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "contradicted"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Detecting water vapor conflicts with the claim that the planet lacks an atmosphere, so \"contradicted\" is the best fit.",
+        "why_selected_answer_is_wrong": "\"Investigated\" does not show that the evidence disproved the assumption.",
+        "takeaway": "A new finding that proves an old claim false calls for a strong contradiction word, not a neutral research word."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q1",
+      "question_family_id": "m2-q1",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q2",
@@ -483,7 +1373,96 @@
         "why_correct": "The passage says beads made from these shells were found in many MSA sites across western North Africa. \"Ubiquity\" means widespread presence, which matches that description exactly.",
         "why_selected_answer_is_wrong": "\"Heterogeneity\" means diversity or variety, but the sentence is about how common the artifacts were across many sites, not how different they were from one another.",
         "takeaway": "A strong vocabulary answer should fit both the surrounding logic and the exact noun being described."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q2",
+      "question_family_id": "m2-q2",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q2-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 2,
+      "domain": "Craft and Structure",
+      "question_text": "Archaeologists have recovered obsidian blades from dozens of settlements across a broad volcanic region. In a recent paper, researchers attribute these tools' apparent ___ to long-distance trade networks and the ready availability of obsidian outcrops in the area.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "heterogeneity",
+        "B": "ubiquity",
+        "C": "expediency",
+        "D": "fecundity"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "heterogeneity"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "ubiquity"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Because the blades were found in many settlements, the sentence calls for a word meaning widespread presence. \"Ubiquity\" fits exactly.",
+        "why_selected_answer_is_wrong": "\"Heterogeneity\" means diversity or variation, but the passage is about how common the tools are across sites.",
+        "takeaway": "Match the noun to the evidence: \"many sites\" points to widespread occurrence, not diversity."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q2",
+      "question_family_id": "m2-q2",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q2-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 2,
+      "domain": "Craft and Structure",
+      "question_text": "Marine archaeologists have identified the same style of bronze coin at ports throughout the eastern Mediterranean. A 2024 study attributes the coins' apparent ___ to dense shipping routes and the coin's use in multiple coastal markets.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "heterogeneity",
+        "B": "ubiquity",
+        "C": "expediency",
+        "D": "fecundity"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "heterogeneity"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "ubiquity"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Finding the same coin style at many ports shows that it was widespread, or ubiquitous.",
+        "why_selected_answer_is_wrong": "The study is not about the coins being diverse; it is about their being found almost everywhere in the region.",
+        "takeaway": "If the clue is geographic spread, the right answer will usually mean prevalence, not difference."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q2",
+      "question_family_id": "m2-q2",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q3",
@@ -522,7 +1501,96 @@
         "why_correct": "The examples show that black swan family arrangements are flexible: successful pairs foster others' cygnets, and male-male pairs can also rear young. \"Elasticity\" best captures that adaptability or range.",
         "why_selected_answer_is_wrong": "\"Affection\" points to emotion, but the passage is describing variation in family structure and caregiving patterns, not how loving the swans are.",
         "takeaway": "If the examples show range or flexibility, choose the option that captures structure and pattern rather than tone or feeling."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q3",
+      "question_family_id": "m2-q3",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q3-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 3,
+      "domain": "Craft and Structure",
+      "question_text": "The social organization of clownfish shows remarkable ___: if the dominant female in a group disappears, the breeding male can change sex and assume that role, and unrelated juveniles may also be absorbed into the group's hierarchy.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "cohesion",
+        "B": "elasticity",
+        "C": "affection",
+        "D": "reciprocity"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "affection"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "elasticity"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The examples show flexibility and adaptability in the group structure, so \"elasticity\" is the most precise word.",
+        "why_selected_answer_is_wrong": "\"Affection\" refers to emotion, but the passage is about how the social structure can change shape.",
+        "takeaway": "If the examples show a system bending or adapting, look for a structural word rather than an emotional one."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q3",
+      "question_family_id": "m2-q3",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q3-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 3,
+      "domain": "Craft and Structure",
+      "question_text": "The care structure of acorn woodpeckers exhibits notable ___: breeding pairs are often assisted by helpers, and adults may join or leave cooperative groups while the nest still functions successfully.\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": {
+        "A": "cohesion",
+        "B": "elasticity",
+        "C": "affection",
+        "D": "reciprocity"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "affection"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "elasticity"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "word-in-context-precision",
+      "study_category_label": "Craft and Structure: word-in-context and precision vocabulary",
+      "study_priority_rank": 2,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The family arrangement can shift while remaining effective, so the passage is describing flexibility, or elasticity.",
+        "why_selected_answer_is_wrong": "The evidence does not show how fond the birds are of one another; it shows that the caregiving arrangement is adaptable.",
+        "takeaway": "Abstract nouns on SAT items often test whether you can separate relationship structure from emotional tone."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q3",
+      "question_family_id": "m2-q3",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q5",
@@ -562,7 +1630,96 @@
         "why_correct": "The passage centers on Adam's considerate offer to stay on the ship and be ready to follow Richard's plans, then shows that this wins Richard's heart. Choice B captures that Adam's flexibility improves their relationship.",
         "why_selected_answer_is_wrong": "Choice D depends on a contrast the text never gives. Richard's first impression is not described as wary; the meeting is said to have begun auspiciously and proceeded well.",
         "takeaway": "For main-purpose questions, focus on the change the passage highlights, not on a dramatic contrast that is never actually stated."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q5",
+      "question_family_id": "m2-q5",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q5-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 5,
+      "domain": "Craft and Structure",
+      "question_text": "The following text is from a novel. Nora is meeting her aunt Lydia at a train station.\nThe reunion, happily begun, improved with every moment. Noticing that Lydia was tired from travel, Nora insisted that they abandon her own plans for the afternoon and settle first wherever Lydia pleased. This ready willingness to adjust herself to another's comfort affected Lydia deeply. She took Nora's arm at once, and before long the two were speaking not stiffly as relatives, but with the ease of old companions.\nWhich choice best states the main purpose of the text?",
+      "choices": {
+        "A": "It explains why Nora and her aunt Lydia decide to spend the afternoon together rather than continuing their separate plans.",
+        "B": "It showcases how Nora's flexibility and consideration strengthen her relationship with her aunt Lydia.",
+        "C": "It describes why Nora and her aunt Lydia feel enthusiastic about the errands ahead of them.",
+        "D": "It contrasts Lydia's wary first impression of Nora with her eventual affection for Nora."
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "It contrasts Lydia's wary first impression of Nora with her eventual affection for Nora."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "It showcases how Nora's flexibility and consideration strengthen her relationship with her aunt Lydia."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The passage emphasizes Nora's willingness to adapt to Lydia's needs and shows that this warms their relationship immediately. Choice B states that purpose directly.",
+        "why_selected_answer_is_wrong": "The passage never says Lydia was wary at first. It begins by saying the reunion was happily begun.",
+        "takeaway": "Do not choose a contrast answer unless the passage clearly presents both sides of the contrast."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q5",
+      "question_family_id": "m2-q5",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q5-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 5,
+      "domain": "Craft and Structure",
+      "question_text": "The following text is from a novel. Julian has just met the retired teacher Mr. Vale, whom he has long admired.\nTheir conversation opened well and went on better. Seeing that Mr. Vale wished to walk slowly and talk at leisure, Julian at once gave up the quicker route he had planned and matched his pace to the older man's. Such easy deference to another's comfort won Mr. Vale completely. By the time they reached the garden gate, they had ceased to seem like strangers and spoken instead with the warmth of old friends.\nWhich choice best states the main purpose of the text?",
+      "choices": {
+        "A": "It states the reasons Julian and Mr. Vale choose the slower route to the garden rather than the quicker one.",
+        "B": "It showcases how Julian's flexibility and consideration strengthen his relationship with Mr. Vale.",
+        "C": "It describes why Julian and Mr. Vale are excited about the conversation they plan to continue in the garden.",
+        "D": "It contrasts Mr. Vale's suspicious first impression of Julian with his eventual fondness for him."
+      },
+      "selected_incorrect_answer": {
+        "letter": "D",
+        "text": "It contrasts Mr. Vale's suspicious first impression of Julian with his eventual fondness for him."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "It showcases how Julian's flexibility and consideration strengthen his relationship with Mr. Vale."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Julian alters his own plan out of consideration, and the passage shows that this creates immediate closeness between the two characters.",
+        "why_selected_answer_is_wrong": "Choice D invents suspicion that the text never mentions. The relationship starts positively and grows warmer.",
+        "takeaway": "Main-purpose answers should capture the change the passage highlights, not an invented backstory."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q5",
+      "question_family_id": "m2-q5",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q6",
@@ -602,7 +1759,96 @@
         "why_correct": "Camillo says he might help ease the Sicilian king's sorrows, then immediately checks himself with \"or I o'erween,\" meaning he may be presuming too much. That aside shows he knows this possible benefit is uncertain or speculative.",
         "why_selected_answer_is_wrong": "Choice A shifts the focus to Polixenes's feelings, but the underlined aside is about Camillo's own doubt regarding how useful he would be to the king of Sicily.",
         "takeaway": "In older literary passages, brief self-corrections often signal qualification: the speaker is softening or limiting what he just claimed."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q6",
+      "question_family_id": "m2-q6",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q6-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 6,
+      "domain": "Craft and Structure",
+      "question_text": "The following text is from a play. Marta has asked the duke for permission to leave court and return home.\nDUKE: I beg you, Marta, press me no further. To refuse you pains me, yet to let you go pains me more.\nMARTA: It is ten years since I saw my sister. Besides, our grieving lady has written for me, whose burdened heart I may perhaps lighten - or I presume too much - and that hope urges me to depart.\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": {
+        "A": "It establishes Marta's hope that the duke will be comforted knowing that Marta is not leaving merely by choice.",
+        "B": "It suggests that Marta feels compelled to persuade the duke that her decision to leave court is justified.",
+        "C": "It conveys Marta's recognition that one benefit her presence may afford the grieving lady is merely speculative.",
+        "D": "It bolsters the idea that Marta's primary motivation for returning home is concern for the grieving lady's well-being."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "It establishes Marta's hope that the duke will be comforted knowing that Marta is not leaving merely by choice."
+      },
+      "correct_answer": {
+        "letter": "C",
+        "text": "It conveys Marta's recognition that one benefit her presence may afford the grieving lady is merely speculative."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Marta says she may lighten the lady's burden, then immediately qualifies that thought with \"or I presume too much.\" That shows she knows the benefit is uncertain.",
+        "why_selected_answer_is_wrong": "The aside is not about comforting the duke. It is about Marta doubting her own usefulness.",
+        "takeaway": "When a speaker interrupts herself with a phrase like \"or I presume too much,\" she is qualifying the certainty of what she just claimed."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q6",
+      "question_family_id": "m2-q6",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q6-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 6,
+      "domain": "Craft and Structure",
+      "question_text": "The following text is from a play. An envoy has asked the queen for leave to travel home.\nQUEEN: Good Rowan, importune me no more. It troubles me to deny you and troubles me no less to grant this request.\nROWAN: Twelve winters have passed since I saw my father. And the ailing prince has sent for me, to whose anxieties I might be some relief - or I flatter myself - which thought also presses me toward departure.\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": {
+        "A": "It establishes Rowan's hope that the queen will feel less slighted if she knows Rowan is not leaving entirely of his own accord.",
+        "B": "It suggests that Rowan feels compelled to persuade the queen that Rowan's decision to leave is justified.",
+        "C": "It conveys Rowan's recognition that one benefit Rowan's presence may afford the prince is merely speculative.",
+        "D": "It bolsters the idea that Rowan's primary motivation for returning home is concern for the prince's well-being."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "It establishes Rowan's hope that the queen will feel less slighted if she knows Rowan is not leaving entirely of his own accord."
+      },
+      "correct_answer": {
+        "letter": "C",
+        "text": "It conveys Rowan's recognition that one benefit Rowan's presence may afford the prince is merely speculative."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "passage-function-structure-purpose",
+      "study_category_label": "Craft and Structure: passage structure, sentence function, and author purpose",
+      "study_priority_rank": 3,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The phrase \"or I flatter myself\" shows Rowan checking his own confidence about being able to help the prince. The possible benefit is presented as uncertain.",
+        "why_selected_answer_is_wrong": "Choice A wrongly shifts attention to the queen's feelings. Rowan's aside comments on his own doubtful estimate of his usefulness.",
+        "takeaway": "A self-correcting aside usually narrows or softens the claim immediately before it."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q6",
+      "question_family_id": "m2-q6",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q7",
@@ -643,7 +1889,96 @@
         "why_correct": "Anbar et al. treat the Mo spike as evidence of an oxygen increase at 2.5 Ga, while Slotznick et al. argue the oxidative weathering could have happened much later. So the real disagreement is whether the Mo increase indicates an oxygen increase dating to the same time as that rock layer.",
         "why_selected_answer_is_wrong": "Choice A asks about oxygen levels before 2.5 Ga, which neither text addresses. The dispute is about the timing of the oxygen-related weathering, not about an earlier baseline.",
         "takeaway": "Turn paired-text disagreements into a yes-or-no timing or causation question; the right answer is the one the two texts would answer differently."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q7",
+      "question_family_id": "m2-q7",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q7-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 7,
+      "domain": "Craft and Structure",
+      "question_text": "Text 1\nBy chemically analyzing lake-sediment cores from a boreal forest, Lena Ortiz et al. found a sharp spike in charcoal fragments in a layer corresponding to roughly 8,000 years ago. Because charcoal is produced by fire, Ortiz et al. concluded that the region experienced an intense wildfire at that time.\nText 2\nHao Chen et al. reexamined the same cores with high-resolution imaging. In addition to the charcoal-rich layer, Chen et al. found root channels and tiny cracks extending downward from higher layers. The researchers argue that later groundwater could have carried charcoal into the older layer long after the surrounding sediment was deposited.\nBased on the texts, Ortiz et al. (Text 1) and Chen et al. (Text 2) would most likely disagree about the answer to which question about the sediment layer corresponding to 8,000 years ago?",
+      "choices": {
+        "A": "Does the increase in charcoal fragments in that layer suggest that wildfire activity was already high before 8,000 years ago?",
+        "B": "Is the increase in charcoal fragments in that layer indicative of a wildfire dating to the same time?",
+        "C": "Is the increase in charcoal fragments in that layer attributable to burning material found in that layer?",
+        "D": "Did chemically analyzing bulk samples lead to a false impression that there is an increase in charcoal fragments in that layer?"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Does the increase in charcoal fragments in that layer suggest that wildfire activity was already high before 8,000 years ago?"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "Is the increase in charcoal fragments in that layer indicative of a wildfire dating to the same time?"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "paired-text-reasoning",
+      "study_category_label": "Craft and Structure: paired-text response and disagreement",
+      "study_priority_rank": 7,
+      "study_priority_band": "if time remains",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Text 1 says the charcoal spike reflects a wildfire at the time the layer formed, whereas Text 2 says the charcoal may have entered the layer later. Their disagreement is about whether the spike dates to that same time.",
+        "why_selected_answer_is_wrong": "Neither text addresses wildfire activity before 8,000 years ago, so choice A misses the actual dispute.",
+        "takeaway": "When two texts disagree about evidence in a layer or sample, the key issue is often whether the evidence is contemporaneous with that layer."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q7",
+      "question_family_id": "m2-q7",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q7-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 7,
+      "domain": "Craft and Structure",
+      "question_text": "Text 1\nAnalyzing mineral deposits in a cave wall, Sofia Malik et al. detected an unusual sulfur spike in material corresponding to roughly 12,000 years ago. Because sulfur deposits of this kind are often associated with volcanic emissions, Malik et al. concluded that volcanic activity briefly increased at that time.\nText 2\nReexamining the wall with microscopic imaging, Andre Vogel et al. identified later seepage channels running through the same area. Vogel et al. argue that sulfur-rich water could have entered the older material long after its formation, concentrating sulfur there without any volcanic increase at 12,000 years ago.\nBased on the texts, Malik et al. (Text 1) and Vogel et al. (Text 2) would most likely disagree about the answer to which question about the cave-wall material corresponding to 12,000 years ago?",
+      "choices": {
+        "A": "Does the sulfur spike in that material suggest that volcanic activity was already elevated before 12,000 years ago?",
+        "B": "Is the sulfur spike in that material indicative of a volcanic increase dating to the same time?",
+        "C": "Is the sulfur spike in that material attributable to minerals present in that material?",
+        "D": "Did chemically analyzing the material create a false impression that sulfur levels were elevated there at all?"
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Does the sulfur spike in that material suggest that volcanic activity was already elevated before 12,000 years ago?"
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "Is the sulfur spike in that material indicative of a volcanic increase dating to the same time?"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "paired-text-reasoning",
+      "study_category_label": "Craft and Structure: paired-text response and disagreement",
+      "study_priority_rank": 7,
+      "study_priority_band": "if time remains",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Malik et al. connect the sulfur spike to volcanic activity at 12,000 years ago, while Vogel et al. say the sulfur may have arrived later. The disagreement is about same-time interpretation.",
+        "why_selected_answer_is_wrong": "Choice A asks about an earlier baseline that neither text discusses.",
+        "takeaway": "If one text argues later contamination or seepage, the disagreement is about timing, not about what happened before the measured layer."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q7",
+      "question_family_id": "m2-q7",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q8",
@@ -682,7 +2017,96 @@
         "why_correct": "The narrator describes Sir Winston Day as looking like a statesman, but then sarcastically questions what he actually achieved in fifty years of service. Choice A captures that contrast between impressive appearance and doubtful accomplishment.",
         "why_selected_answer_is_wrong": "Choice C treats \"state secrets\" literally, but the passage uses that phrase sarcastically to say the memoirs do not really clarify his achievements. The problem is vagueness, not classified heroism.",
         "takeaway": "When the narrator is ironic, prefer the answer that matches the attitude beneath the praise rather than the praise on the surface."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q8",
+      "question_family_id": "m2-q8",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q8-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 8,
+      "domain": "Information and Ideas",
+      "question_text": "The following text is from a novel. The narrator is describing a member of a civic board.\nLast, and determined to look indispensable, was Councillor Beech, whose profile appeared designed for a commemorative medallion and whose brow suggested such reserves of judgment that it felt rude to ask what, exactly, three decades on the planning committee had achieved. His memoir might have answered that question, but because the relevant chapter begins so late and says so little, it may as well have been sealed in the town archives.\nBased on the text, which choice best describes Councillor Beech?",
+      "choices": {
+        "A": "He has the appearance of a distinguished figure, but it is uncertain whether he has accomplished anything to earn distinction.",
+        "B": "He looks like a person worthy of respect, but his memoir reveals that some of his actions were dishonorable.",
+        "C": "He would be a celebrated public figure if his achievements did not have to be kept hidden from the public.",
+        "D": "He has maintained a modest profile even though he has served the public capably for many years."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "He would be a celebrated public figure if his achievements did not have to be kept hidden from the public."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "He has the appearance of a distinguished figure, but it is uncertain whether he has accomplished anything to earn distinction."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The narrator mockingly describes Beech as looking impressive while doubting that he has done anything important. Choice A captures that irony.",
+        "why_selected_answer_is_wrong": "Choice C takes the archival joke literally. The narrator is not saying Beech's achievements are secret; the narrator is saying the memoir fails to show any.",
+        "takeaway": "In ironic descriptions, separate the surface compliment from the actual judgment underneath it."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q8",
+      "question_family_id": "m2-q8",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q8-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 8,
+      "domain": "Information and Ideas",
+      "question_text": "The following text is from a novel. The narrator is describing a university administrator.\nProfessor Halden entered with the gravity of a portrait stepping out of its frame, and his expression implied a life spent issuing wise decrees. Yet one searched in vain for evidence of what his twenty-five years in university leadership had concretely produced. His recently published reminiscences promise illumination, but because they postpone the relevant details almost indefinitely, they preserve the mystery better than they solve it.\nBased on the text, which choice best describes Professor Halden?",
+      "choices": {
+        "A": "He looks like a person of considerable distinction, but it is unclear whether his record actually justifies that impression.",
+        "B": "He appears respectable, but his memoir shows that several of his decisions were unethical.",
+        "C": "He would be more admired if his accomplishments did not need to remain hidden from readers.",
+        "D": "He has kept a deliberately low profile despite a long and evidently successful career."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "He would be more admired if his accomplishments did not need to remain hidden from readers."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "He looks like a person of considerable distinction, but it is unclear whether his record actually justifies that impression."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The narrator presents Halden as looking important while implying that his achievements are frustratingly hard to identify. That is exactly the contrast in choice A.",
+        "why_selected_answer_is_wrong": "The passage does not suggest hidden achievements; it suggests that the promised evidence of achievement never really arrives.",
+        "takeaway": "When a passage questions whether appearances are earned, the correct answer will usually preserve that uncertainty rather than invent a hidden explanation."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q8",
+      "question_family_id": "m2-q8",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q9",
@@ -721,7 +2145,96 @@
         "why_correct": "The passage explains that spike waves form when opposing traveling waves intersect and that they can exceed the height limits predicted from ordinary traveling-wave breaking. Choice D captures both the setup and the key conclusion.",
         "why_selected_answer_is_wrong": "Choice A misstates the study by saying jet stability and cavity shape influence breaking in traveling waves. The passage says those factors help explain spike-wave breaking, which is the special case being studied.",
         "takeaway": "For main-idea questions, make sure the answer stays on the passage's actual subject rather than drifting back to background information."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q9",
+      "question_family_id": "m2-q9",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q9-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 9,
+      "domain": "Information and Ideas",
+      "question_text": "Studies of soap-film rupture have mainly focused on flat films stretched across frames, so Wen Li et al. investigated dome-shaped films that form briefly when bubbles merge. Flat films rupture when thinning passes a critical threshold; rupture therefore limits the size such films can maintain. Li et al. found that merged domes can exceed that limit because factors other than thickness alone, such as rim curvature and drainage pattern, affect when the domes burst.\nWhich choice best states the main idea of the text?",
+      "choices": {
+        "A": "Previous studies have suggested that thickness mediates rupture in flat films, but the study by Li et al. shows that rim curvature and drainage pattern may also influence rupture in such flat films.",
+        "B": "Rupture limits the size of flat films, but the study by Li et al. suggests that merged domes can exceed those limits if their thickness reaches a critical threshold.",
+        "C": "Li et al. suggest that dome-shaped films form when bubbles merge and that such domes tend to be larger than flat films.",
+        "D": "The study by Li et al. suggests that when bubbles merge in specific ways, the resulting dome may persist at a size greater than would be expected based on the properties of flat films."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Previous studies have suggested that thickness mediates rupture in flat films, but the study by Li et al. shows that rim curvature and drainage pattern may also influence rupture in such flat films."
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "The study by Li et al. suggests that when bubbles merge in specific ways, the resulting dome may persist at a size greater than would be expected based on the properties of flat films."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The passage introduces a special case, merged domes, and says they can exceed the limits predicted from flat-film behavior. Choice D captures that core idea.",
+        "why_selected_answer_is_wrong": "Choice A wrongly transfers the new factors back onto ordinary flat films. The passage says those factors mediate rupture in the dome case being studied.",
+        "takeaway": "Keep track of the background case and the new case. The main idea usually centers on what is newly learned about the new case."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q9",
+      "question_family_id": "m2-q9",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q9-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 9,
+      "domain": "Information and Ideas",
+      "question_text": "Research on snow collapse has mostly examined level snow slabs resting on mountain slopes, so Marta Jensen et al. studied arching ridges that form when opposing drifts press into one another. Ordinary slabs fail when stress exceeds a critical threshold, which constrains how much snow they can support. Jensen et al. found that these ridges can exceed that expectation because factors other than stress alone, including curvature and wind packing, help determine when collapse occurs.\nWhich choice best states the main idea of the text?",
+      "choices": {
+        "A": "Previous studies have suggested that stress mediates failure in ordinary snow slabs, but the study by Jensen et al. shows that curvature and wind packing may also influence failure in such ordinary slabs.",
+        "B": "Collapse limits the weight ordinary snow slabs can support, but the study by Jensen et al. suggests that ridges can exceed those limits only when stress reaches a critical threshold.",
+        "C": "Jensen et al. suggest that arching ridges form when opposing drifts meet and that such ridges generally support more snow than ordinary slabs do.",
+        "D": "The study by Jensen et al. suggests that when opposing drifts create arching ridges, the resulting structure may support more snow than would be expected based on the behavior of ordinary slabs."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "Previous studies have suggested that stress mediates failure in ordinary snow slabs, but the study by Jensen et al. shows that curvature and wind packing may also influence failure in such ordinary slabs."
+      },
+      "correct_answer": {
+        "letter": "D",
+        "text": "The study by Jensen et al. suggests that when opposing drifts create arching ridges, the resulting structure may support more snow than would be expected based on the behavior of ordinary slabs."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The main point is that a special structure formed by opposing drifts can outperform what ordinary slab models would predict. Choice D says that directly.",
+        "why_selected_answer_is_wrong": "Choice A incorrectly makes curvature and wind packing sound like new findings about ordinary slabs rather than about the arching ridges.",
+        "takeaway": "A common trap is to misapply the new finding to the background phenomenon instead of the special case the study investigates."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q9",
+      "question_family_id": "m2-q9",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q11",
@@ -761,7 +2274,96 @@
         "why_correct": "Walsh found that social features make users conscious of how others may judge their listening activity, and that this changes what they do. Choice A directly shows that kind of self-management: the user picks music based on followers' reactions rather than personal preference.",
         "why_selected_answer_is_wrong": "Choice B is about an algorithm producing repetitive recommendations. It does not involve social perception or users changing their behavior because other people can see it.",
         "takeaway": "To illustrate a research finding, pick the example that mirrors both parts of the finding, not just one related topic from the passage."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q11",
+      "question_family_id": "m2-q11",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q11-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 11,
+      "domain": "Information and Ideas",
+      "question_text": "Many photo-sharing platforms also function as social networks: users can follow one another, react to posts, and publicly track each other's activity. In a recent study, researcher Alana Brooks interviewed frequent users to examine how these social features shape posting habits. Brooks found that the features often made participants more conscious of how their activity might be judged, which in turn influenced what and how they posted.\nWhich quotation from a photo-sharing platform user would best illustrate Brooks's finding?",
+      "choices": {
+        "A": "\"When I decide which photos to post, I sometimes choose the ones that will make my feed look more impressive to followers rather than the ones I personally like best.\"",
+        "B": "\"Because the app recommends images based on what I have already liked, the suggestions can start to feel repetitive after a while.\"",
+        "C": "\"The social side of the app makes it easy to feel connected to friends even when we are not in the same place.\"",
+        "D": "\"Using the app feels passive sometimes, because I can scroll for a long time without making any deliberate choices at all.\""
+      },
+      "selected_incorrect_answer": {
+        "letter": "B",
+        "text": "\"Because the app recommends images based on what I have already liked, the suggestions can start to feel repetitive after a while.\""
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "\"When I decide which photos to post, I sometimes choose the ones that will make my feed look more impressive to followers rather than the ones I personally like best.\""
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "Choice A shows the user changing posting behavior because followers might judge the feed. That directly illustrates social perception shaping behavior.",
+        "why_selected_answer_is_wrong": "Choice B is about recommendation algorithms, not about the user managing behavior because other people can see it.",
+        "takeaway": "The best illustrative quote should match both the social-awareness part of the finding and the behavior-change part."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q11",
+      "question_family_id": "m2-q11",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q11-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 11,
+      "domain": "Information and Ideas",
+      "question_text": "Some fitness-tracking apps also operate like social platforms: users can follow friends, compare workout logs, and react to each other's activity. Researcher Devin Shah interviewed frequent users of one such app and found that its social features often made participants more mindful of how their routines would appear to others, which influenced how they recorded and even selected workouts.\nWhich quotation from a fitness-app user would best illustrate Shah's finding?",
+      "choices": {
+        "A": "\"I sometimes log a longer run instead of a short walk because I know my followers will see the entry, and I want the workout list on my profile to look more serious.\"",
+        "B": "\"The app's training suggestions can get repetitive because they are based so heavily on my previous workouts.\"",
+        "C": "\"The social features make it easier to feel like I am exercising alongside friends even when we are in different cities.\"",
+        "D": "\"Using the app can feel passive when I just accept the workout plan it gives me instead of planning one myself.\""
+      },
+      "selected_incorrect_answer": {
+        "letter": "B",
+        "text": "\"The app's training suggestions can get repetitive because they are based so heavily on my previous workouts.\""
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "\"I sometimes log a longer run instead of a short walk because I know my followers will see the entry, and I want the workout list on my profile to look more serious.\""
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "Choice A shows awareness of others' judgments shaping both what the user logs and what workout the user chooses. That mirrors the finding precisely.",
+        "why_selected_answer_is_wrong": "Choice B concerns algorithmic repetition, not social visibility or self-presentation.",
+        "takeaway": "For evidence-application questions, the right example mirrors the mechanism in the study, not just the general topic."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q11",
+      "question_family_id": "m2-q11",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q12",
@@ -800,7 +2402,96 @@
         "why_correct": "The table lists TRAPPIST-1e's orbital period as 6.1 days. The passage also states that each planet's rotational period equals its orbital period, so 6.1 days for both is the only fully supported completion.",
         "why_selected_answer_is_wrong": "Choice A uses TRAPPIST-1b's orbital period, 1.51 days, instead of TRAPPIST-1e's. It answers the example with the wrong planet's data.",
         "takeaway": "In table questions, confirm that the row, column, and stated relationship all match before choosing."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q12",
+      "question_family_id": "m2-q12",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q12-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 12,
+      "domain": "Information and Ideas",
+      "question_text": "Properties of Lumen's Moons Compared to Earth's Moon\nProperties\nMoon | Orbital period (days) | Moon radius (Earth-moon radii)\nEarth's Moon | 27.3 | 1\nLumen-b | 1.8 | 0.42\nLumen-c | 3.6 | 0.68\nLumen-d | 5.2 | 0.91\nLumen-e | 8.4 | 1.07\n\nLumen is a fictional planet with several moons that are tidally locked, meaning each moon's rotational period equals its orbital period. For example, the orbital period of Lumen-d is ___.\nWhich choice most effectively uses data from the table to complete the example?",
+      "choices": {
+        "A": "1.8 days, which is the shortest rotational period of any of Lumen's moons.",
+        "B": "5.2 days, and its rotational period is also 5.2 days.",
+        "C": "8.4 days, which is the same as the rotational period of Lumen-e.",
+        "D": "5.2 days, and its rotational period is 0.91 days."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "1.8 days, which is the shortest rotational period of any of Lumen's moons."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "5.2 days, and its rotational period is also 5.2 days."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "data-and-table-reasoning",
+      "study_category_label": "Information and Ideas: tables, charts, and quantitative comparison",
+      "study_priority_rank": 4,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The table gives Lumen-d an orbital period of 5.2 days, and the passage says a tidally locked moon has the same rotational period. Choice B matches both facts.",
+        "why_selected_answer_is_wrong": "Choice A uses Lumen-b's value, 1.8 days, instead of Lumen-d's.",
+        "takeaway": "Verify the exact row first, then apply the stated relationship. Many trap answers swap in a nearby row."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q12",
+      "question_family_id": "m2-q12",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q12-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 12,
+      "domain": "Information and Ideas",
+      "question_text": "Properties of the Nysa System's Satellites\nProperties\nSatellite | Orbital period (days) | Satellite radius (Earth-moon radii)\nNysa-a | 2.4 | 0.36\nNysa-b | 4.1 | 0.59\nNysa-c | 6.7 | 0.83\nNysa-d | 9.5 | 1.02\n\nAstronomers classify each of Nysa's satellites as tidally locked, so each satellite rotates once on its axis in exactly the same time that it orbits Nysa. For example, the orbital period of Nysa-c is ___.\nWhich choice most effectively uses data from the table to complete the example?",
+      "choices": {
+        "A": "2.4 days, which is the shortest rotational period of any of Nysa's satellites.",
+        "B": "6.7 days, and its rotational period is also 6.7 days.",
+        "C": "9.5 days, which is the same as the rotational period of Nysa-d.",
+        "D": "6.7 days, and its rotational period is 0.83 days."
+      },
+      "selected_incorrect_answer": {
+        "letter": "A",
+        "text": "2.4 days, which is the shortest rotational period of any of Nysa's satellites."
+      },
+      "correct_answer": {
+        "letter": "B",
+        "text": "6.7 days, and its rotational period is also 6.7 days."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "data-and-table-reasoning",
+      "study_category_label": "Information and Ideas: tables, charts, and quantitative comparison",
+      "study_priority_rank": 4,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "Nysa-c has an orbital period of 6.7 days, and the tidally locked condition means its rotational period is also 6.7 days.",
+        "why_selected_answer_is_wrong": "Choice A gives Nysa-a's orbital period instead of Nysa-c's.",
+        "takeaway": "For table completions, check row, value, and follow-on relationship separately before committing."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q12",
+      "question_family_id": "m2-q12",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q13",
@@ -839,7 +2530,96 @@
         "why_correct": "The study found similar correlations between personality-trait patterns and Western-music preference patterns across many countries. That supports the inference that similar personality profiles tend to align with similar Western music preferences across cultures.",
         "why_selected_answer_is_wrong": "Choice C adds an unsupported comparison to what researchers had previously assumed. The passage says the correlations were similar across cultures, but it does not discuss prior assumptions about how much variation to expect.",
         "takeaway": "When completing an inference, stay with the claim the evidence directly supports and avoid answers that add extra comparison points or background not mentioned."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q13",
+      "question_family_id": "m2-q13",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q13-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 13,
+      "domain": "Information and Ideas",
+      "question_text": "Studies conducted within individual countries have found associations between personality traits and preferences for several categories of color palettes, such as muted, vivid, warm, cool, and high-contrast combinations. To investigate whether these associations extend across cultures, researchers collected palette-preference data and self-reported personality traits from participants in forty countries. The study confirmed that the palette categories accurately described participants' preferences and found similar correlations between palette patterns and personality-trait patterns across countries, suggesting that\nWhich choice most logically completes the text?",
+      "choices": {
+        "A": "across cultural contexts, people who share similar personality-trait profiles tend to prefer similar kinds of color palettes.",
+        "B": "the palette framework can likely be used to predict preferences for any visual style, even when those styles differ greatly from the palettes studied.",
+        "C": "the strength of the relationship between personality traits and palette preferences varies less across cultures than researchers had previously assumed.",
+        "D": "people who are more familiar with international design trends are likely to express stronger palette preferences than those who are less familiar with such trends."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "the strength of the relationship between personality traits and palette preferences varies less across cultures than researchers had previously assumed."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "across cultural contexts, people who share similar personality-trait profiles tend to prefer similar kinds of color palettes."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "Because the study found similar correlations across countries, the supported inference is that similar personality profiles align with similar palette preferences across cultures.",
+        "why_selected_answer_is_wrong": "Choice C brings in a comparison to what researchers had previously assumed, but the passage never mentions any earlier assumption about the amount of variation.",
+        "takeaway": "Do not import an unstated baseline like \"more than expected\" or \"less than assumed\" unless the passage explicitly provides it."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q13",
+      "question_family_id": "m2-q13",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q13-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 13,
+      "domain": "Information and Ideas",
+      "question_text": "Researchers studying media habits within individual societies have found associations between personality traits and preferences for several video-game categories, including strategy, simulation, adventure, puzzle, and action games. To test whether these associations hold across cultures, a research team gathered game-preference data and self-reported personality traits from participants in fifty countries. The study confirmed that the category framework captured participants' tastes accurately and revealed similar correlations between game-category patterns and personality-trait patterns across countries, suggesting that\nWhich choice most logically completes the text?",
+      "choices": {
+        "A": "across cultural contexts, people who have similar personality-trait profiles tend to prefer similar types of video games.",
+        "B": "the category framework can likely be used to predict preferences for any leisure activity, even when the activities differ sharply from video games.",
+        "C": "the relationship between personality traits and video-game preferences varies less across cultures than researchers had previously assumed.",
+        "D": "people who are more familiar with international gaming culture are likely to express stronger preferences for specific game types than those who are less familiar."
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "the relationship between personality traits and video-game preferences varies less across cultures than researchers had previously assumed."
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "across cultural contexts, people who have similar personality-trait profiles tend to prefer similar types of video games."
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "inference-main-idea-application",
+      "study_category_label": "Information and Ideas: inference, main idea, and evidence application",
+      "study_priority_rank": 6,
+      "study_priority_band": "study next",
+      "study_estimated_roi": "medium",
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The passage directly supports the idea that similar trait patterns correspond to similar game preferences across different countries.",
+        "why_selected_answer_is_wrong": "Choice C adds an unsupported comparison to researchers' prior assumptions. The passage reports similar correlations but not any earlier expectation.",
+        "takeaway": "An inference should stay tightly attached to the reported finding, not to a speculative comparison outside the text."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q13",
+      "question_family_id": "m2-q13",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q15",
@@ -878,7 +2658,96 @@
         "why_correct": "The opening modifier \"Established in 1936 by African American novelist Richard Wright\" must describe the noun that comes right after it. Choice A places \"the South Side Writers Group\" there, creating a grammatical sentence, and the semicolon correctly joins the next independent clause.",
         "why_selected_answer_is_wrong": "Choice C creates a dangling modifier because it makes \"writers\" seem as though they were established in 1936 by Richard Wright. The modifier needs to attach to the group, not to the people sharing ideas.",
         "takeaway": "After an opening modifier, check whether the very next noun is the thing being described."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q15",
+      "question_family_id": "m2-q15",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q15-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 15,
+      "domain": "Standard English Conventions",
+      "question_text": "Founded in 1952 by historian Lena Ortiz, ___ it would later become a central resource for researchers studying the city's waterfront communities.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "the Harbor Archive preserved oral histories and neighborhood records;",
+        "B": "researchers at the Harbor Archive had a central place for preserving oral histories and neighborhood records;",
+        "C": "oral histories and neighborhood records were preserved at a place known as the Harbor Archive;",
+        "D": "the city was where the Harbor Archive preserved oral histories and neighborhood records;"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "oral histories and neighborhood records were preserved at a place known as the Harbor Archive;"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "the Harbor Archive preserved oral histories and neighborhood records;"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The opening modifier \"Founded in 1952 by historian Lena Ortiz\" must describe the noun that follows it. Choice A correctly places \"the Harbor Archive\" after the modifier.",
+        "why_selected_answer_is_wrong": "Choice C creates a dangling modifier, making it sound as though the oral histories and records were founded in 1952 by Ortiz.",
+        "takeaway": "Check the first noun after an opening modifier. If it is not the thing being described, the sentence is flawed."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q15",
+      "question_family_id": "m2-q15",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q15-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 15,
+      "domain": "Standard English Conventions",
+      "question_text": "Launched in 1984 by activists Marisol Vega and Ken Okafor, ___ it soon became a vital forum for neighborhood organizers.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "the weekly newsletter South Block Voice gave local residents a place to share updates and ideas;",
+        "B": "local residents in the South Block Voice newsletter had a place to share updates and ideas;",
+        "C": "updates and ideas were shared in a weekly newsletter called South Block Voice;",
+        "D": "the neighborhood was where South Block Voice gave residents a place to share updates and ideas;"
+      },
+      "selected_incorrect_answer": {
+        "letter": "C",
+        "text": "updates and ideas were shared in a weekly newsletter called South Block Voice;"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "the weekly newsletter South Block Voice gave local residents a place to share updates and ideas;"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "Choice A places the thing that was launched, the newsletter, immediately after the opening modifier and forms a grammatical sentence.",
+        "why_selected_answer_is_wrong": "Choice C dangles the modifier by making \"updates and ideas\" the apparent thing launched in 1984.",
+        "takeaway": "Opening modifiers should snap directly onto the noun they describe, not onto a result or activity related to that noun."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q15",
+      "question_family_id": "m2-q15",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     },
     {
       "id": "m2-q19",
@@ -917,7 +2786,96 @@
         "why_correct": "In a restrictive professional title before a name, no commas are used: \"chemistry professor Yugang Sun.\" That full phrase is the compound subject with \"and his colleagues,\" so choice A is the standard and grammatical form.",
         "why_selected_answer_is_wrong": "Choice B incorrectly inserts a comma before \"and his colleagues,\" splitting the subject from the rest of the sentence. It also treats the title-name unit as though it needed punctuation when it does not.",
         "takeaway": "Do not put commas between a restrictive title and a person's name, and do not separate a compound subject from its verb with a comma."
-      }
+      },
+      "question_source_type": "real",
+      "source_question_id": "m2-q19",
+      "question_family_id": "m2-q19",
+      "synthetic_variant_index": 0,
+      "synthetic_variant_label": null
+    },
+    {
+      "id": "m2-q19-s1",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 19,
+      "domain": "Standard English Conventions",
+      "question_text": "To map new exoplanet atmospheres at high resolution, astronomers need instruments that can detect faint chemical signals with unusual precision. Recently, physics ___ and her colleagues at Northwestern University developed a sensor array that can do exactly that.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "professor Elena Park",
+        "B": "professor Elena Park,",
+        "C": "professor, Elena Park,",
+        "D": "professor, Elena Park"
+      },
+      "selected_incorrect_answer": {
+        "letter": "B",
+        "text": "professor Elena Park,"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "professor Elena Park"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "A restrictive professional title directly before a name takes no commas, so \"physics professor Elena Park\" is correct.",
+        "why_selected_answer_is_wrong": "Choice B inserts a comma before \"and her colleagues,\" incorrectly breaking up the compound subject.",
+        "takeaway": "Keep a restrictive title and name together with no commas, and do not split the subject from the rest of the sentence."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q19",
+      "question_family_id": "m2-q19",
+      "synthetic_variant_index": 1,
+      "synthetic_variant_label": "Drill 1"
+    },
+    {
+      "id": "m2-q19-s2",
+      "practice_test": 11,
+      "section": "Reading and Writing",
+      "module": 2,
+      "module_label": "Module 2",
+      "question_number": 19,
+      "domain": "Standard English Conventions",
+      "question_text": "For marine biologists to track subtle changes in reef chemistry, they need sensors capable of measuring dissolved compounds in real time. Fortunately, biologist ___ and his team at Pacific Coast University recently created a device designed for that purpose.\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "Marco Alvarez",
+        "B": "Marco Alvarez,",
+        "C": "professor, Marco Alvarez,",
+        "D": "professor, Marco Alvarez"
+      },
+      "selected_incorrect_answer": {
+        "letter": "B",
+        "text": "Marco Alvarez,"
+      },
+      "correct_answer": {
+        "letter": "A",
+        "text": "Marco Alvarez"
+      },
+      "primary_screenshot": null,
+      "source_screenshots": [],
+      "study_category_id": "standard-english-conventions",
+      "study_category_label": "Standard English Conventions: punctuation, titles, and modifier placement",
+      "study_priority_rank": 1,
+      "study_priority_band": "study first",
+      "study_estimated_roi": "high",
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The subject is \"biologist Marco Alvarez and his team,\" which requires no comma inside the title-name phrase or before the coordinating phrase.",
+        "why_selected_answer_is_wrong": "Choice B incorrectly separates part of the subject with a comma.",
+        "takeaway": "If a title is essential to identifying the person, treat title and name as one unit with no commas."
+      },
+      "question_source_type": "synthetic",
+      "source_question_id": "m2-q19",
+      "question_family_id": "m2-q19",
+      "synthetic_variant_index": 2,
+      "synthetic_variant_label": "Drill 2"
     }
   ],
   "study_analysis": {

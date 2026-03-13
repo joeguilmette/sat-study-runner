@@ -94,6 +94,14 @@
               </label>
             </div>
 
+            <label class="toggle-field toggle-field-detail">
+              <input id="include-synthetic-toggle" type="checkbox">
+              <span class="toggle-copy">
+                <strong>Include synthetic drill questions</strong>
+                <span>Add 44 lookalike practice questions built from the same trap patterns as the 22 real misses.</span>
+              </span>
+            </label>
+
             <div class="summary-strip">
               <div class="summary-chip">
                 <span class="chip-label">Available</span>
@@ -144,7 +152,10 @@
               <h2 id="question-title">Question</h2>
             </div>
             <div class="scorebox">
-              <span id="mode-badge" class="badge"></span>
+              <div class="badge-stack">
+                <span id="mode-badge" class="badge"></span>
+                <span id="origin-badge" class="badge badge-origin"></span>
+              </div>
               <span id="score-label" class="score-label"></span>
             </div>
           </div>
