@@ -2,6 +2,7 @@ const STORAGE_KEY = "sat-study-runner-settings-v1";
 
 const state = {
   bank: null,
+  sortedCategories: [],
   categoryMap: new Map(),
   questionMap: new Map(),
   settings: {
@@ -73,6 +74,9 @@ async function init() {
       state.bank.study_analysis.study_categories.map((category) => [category.id, category]),
     );
     state.questionMap = new Map(state.bank.questions.map((question) => [question.id, question]));
+    state.sortedCategories = state.bank.study_analysis.study_categories
+      .slice()
+      .sort((left, right) => left.priority_rank - right.priority_rank);
 
     reconcileSettings();
     renderBankSummary();
@@ -173,7 +177,7 @@ function bindSetupEvents() {
       return;
     }
 
-    startSessionFromIds(state.session.questionIds);
+    startSessionFromIds(state.session.questions.map((q) => q.id));
   });
 
   elements.retryMissed.addEventListener("click", () => {
@@ -243,8 +247,9 @@ function reconcileSettings() {
 
 function renderBankSummary() {
   const { total, real, synthetic } = getQuestionOriginCounts(state.bank.questions);
-  const categories = getAllCategories().length;
-  const firstBucket = getAllCategories()[0];
+  const allCategories = getAllCategories();
+  const categories = allCategories.length;
+  const firstBucket = allCategories[0];
   elements.bankSummary.textContent =
     `Practice Test ${state.bank.practice_test} question bank with ${real} real misses and ${synthetic} synthetic drills ` +
     `(${total} questions total) across ` +
@@ -259,7 +264,6 @@ function renderSetup() {
   elements.shuffleToggle.checked = state.settings.shuffle;
   elements.includeSyntheticToggle.checked = state.settings.includeSynthetic;
   renderCategoryList();
-  renderQuestionCountOptions();
   updateSetupCounts();
   persistSettings();
 }
@@ -313,8 +317,7 @@ function renderCategoryList() {
   elements.categoryList.append(fragment);
 }
 
-function renderQuestionCountOptions() {
-  const available = getFilteredQuestionsFromSettings().length;
+function renderQuestionCountOptions(available) {
   const options = [
     { value: "all", label: `All available (${available})` },
     { value: "5", label: "5 questions" },
@@ -370,7 +373,7 @@ function updateSetupCounts() {
       `${selectedCategories} ${categoryLabel} selected, ${available} matching questions, ${mixText} ${sessionSize} ${questionLabel} in this run.`;
   }
 
-  renderQuestionCountOptions();
+  renderQuestionCountOptions(available);
 }
 
 function startSessionFromSelection() {
@@ -383,31 +386,25 @@ function startSessionFromSelection() {
 }
 
 function startSessionFromIds(ids) {
-  const lookup = new Map(state.bank.questions.map((question) => [question.id, question]));
-  const questions = ids.map((id) => lookup.get(id)).filter(Boolean);
+  const questions = ids.map((id) => state.questionMap.get(id)).filter(Boolean);
   if (!questions.length) {
     return;
   }
 
-  startSession(questions, ids);
+  startSession(questions, true);
 }
 
-function startSession(questionList, fixedIds = null) {
-  const questions = fixedIds
-    ? questionList.slice()
+function startSession(questionList, isRetry = false) {
+  const questions = isRetry
+    ? (state.settings.shuffle ? shuffle(questionList) : questionList.slice())
     : prepareQuestionsForSession(questionList).slice(
         0,
         getRequestedQuestionCount(questionList.length),
       );
 
-  const orderedQuestions = fixedIds
-    ? (state.settings.shuffle ? shuffle(questionList.slice()) : questionList.slice())
-    : questions;
-
   state.session = {
     mode: state.settings.mode,
-    questions: orderedQuestions,
-    questionIds: orderedQuestions.map((question) => question.id),
+    questions,
     currentIndex: 0,
     answers: {},
   };
@@ -462,8 +459,8 @@ function renderQuestionMeta(question) {
   elements.questionMeta.replaceChildren();
 
   const tags = [
-    `${question.domain}`,
-    `${question.study_category_label}`,
+    question.domain,
+    question.study_category_label,
     `Priority #${question.study_priority_rank}`,
   ];
 
@@ -537,68 +534,45 @@ function renderFeedback(question, answerState) {
   }
 
   const category = state.categoryMap.get(question.study_category_id);
-  const isCorrect = answerState.selectedLetter === question.correct_answer.letter;
+  const isCorrect = answerState.isCorrect;
   elements.feedbackCard.className = `feedback-card ${isCorrect ? "correct" : "incorrect"}`;
 
   const title = document.createElement("h3");
   title.className = "feedback-title";
   title.textContent = isCorrect ? "Correct" : "Incorrect";
 
-  const correctLine = document.createElement("p");
-  correctLine.innerHTML =
-    `<strong>Correct answer:</strong> ${question.correct_answer.letter}. ${escapeHtml(question.correct_answer.text)}`;
-
-  elements.feedbackCard.append(title, correctLine);
+  elements.feedbackCard.append(
+    title,
+    makeLabeledParagraph("Correct answer", `${question.correct_answer.letter}. ${escapeHtml(question.correct_answer.text)}`),
+  );
 
   if (!isCorrect && answerState.selectedLetter) {
-    const selectedLine = document.createElement("p");
-    selectedLine.innerHTML =
-      `<strong>Your answer:</strong> ${answerState.selectedLetter}. ${escapeHtml(
-        question.choices[answerState.selectedLetter],
-      )}`;
-    elements.feedbackCard.append(selectedLine);
+    elements.feedbackCard.append(
+      makeLabeledParagraph("Your answer", `${answerState.selectedLetter}. ${escapeHtml(question.choices[answerState.selectedLetter])}`),
+    );
   }
 
   if (question.selected_incorrect_answer) {
-    const originalMiss = document.createElement("p");
     const missLabel = isSyntheticQuestion(question) ? "Trap answer" : "Original missed answer";
-    originalMiss.innerHTML =
-      `<strong>${missLabel}:</strong> ${question.selected_incorrect_answer.letter}. ${escapeHtml(
-        question.selected_incorrect_answer.text,
-      )}`;
-    elements.feedbackCard.append(originalMiss);
+    elements.feedbackCard.append(
+      makeLabeledParagraph(missLabel, `${question.selected_incorrect_answer.letter}. ${escapeHtml(question.selected_incorrect_answer.text)}`),
+    );
   }
 
   if (question.answer_explanation?.why_correct) {
-    const whyCorrect = document.createElement("p");
-    whyCorrect.innerHTML =
-      `<strong>Why it works:</strong> ${escapeHtml(question.answer_explanation.why_correct)}`;
-    elements.feedbackCard.append(whyCorrect);
+    elements.feedbackCard.append(makeLabeledParagraph("Why it works", escapeHtml(question.answer_explanation.why_correct)));
   }
 
   if (question.answer_explanation?.why_selected_answer_is_wrong && question.selected_incorrect_answer) {
-    const whyWrong = document.createElement("p");
-    whyWrong.innerHTML =
-      `<strong>Why the original miss fails:</strong> ${escapeHtml(
-        question.answer_explanation.why_selected_answer_is_wrong,
-      )}`;
-    elements.feedbackCard.append(whyWrong);
+    elements.feedbackCard.append(makeLabeledParagraph("Why the original miss fails", escapeHtml(question.answer_explanation.why_selected_answer_is_wrong)));
   }
 
   if (question.answer_explanation?.takeaway) {
-    const takeaway = document.createElement("p");
-    takeaway.innerHTML =
-      `<strong>Takeaway:</strong> ${escapeHtml(question.answer_explanation.takeaway)}`;
-    elements.feedbackCard.append(takeaway);
+    elements.feedbackCard.append(makeLabeledParagraph("Takeaway", escapeHtml(question.answer_explanation.takeaway)));
   }
 
   if (category) {
-    const focus = document.createElement("p");
-    focus.innerHTML =
-      `<strong>Study focus:</strong> ${escapeHtml(category.label)}. ${escapeHtml(
-        category.study_actions[0],
-      )}`;
-    elements.feedbackCard.append(focus);
+    elements.feedbackCard.append(makeLabeledParagraph("Study focus", `${escapeHtml(category.label)}. ${escapeHtml(category.study_actions[0])}`));
   }
 }
 
@@ -612,21 +586,19 @@ function handlePrimaryAction() {
     return;
   }
 
-  if (state.session.mode === "practice") {
-    if (!answerState.revealed) {
-      answerState.revealed = true;
-      answerState.finalized = true;
-      answerState.isCorrect = answerState.selectedLetter === question.correct_answer.letter;
-      renderQuestion();
-      return;
-    }
-
-    moveToNextQuestion();
+  if (state.session.mode === "practice" && !answerState.revealed) {
+    answerState.revealed = true;
+    answerState.finalized = true;
+    answerState.isCorrect = answerState.selectedLetter === question.correct_answer.letter;
+    renderQuestion();
     return;
   }
 
-  answerState.finalized = true;
-  answerState.isCorrect = answerState.selectedLetter === question.correct_answer.letter;
+  if (!answerState.finalized) {
+    answerState.finalized = true;
+    answerState.isCorrect = answerState.selectedLetter === question.correct_answer.letter;
+  }
+
   moveToNextQuestion();
 }
 
@@ -753,25 +725,15 @@ function renderReviewList(reviewItems) {
     const prompt = document.createElement("p");
     prompt.textContent = question.question_text.split("\n").slice(-1)[0];
 
-    const selected = document.createElement("p");
-    selected.innerHTML =
-      `<strong>Your answer:</strong> ${item.answer.selectedLetter}. ${escapeHtml(
-        question.choices[item.answer.selectedLetter],
-      )}`;
-
-    const correct = document.createElement("p");
-    correct.innerHTML =
-      `<strong>Correct answer:</strong> ${question.correct_answer.letter}. ${escapeHtml(
-        question.correct_answer.text,
-      )}`;
-
-    article.append(heading, category, origin, prompt, selected, correct);
+    article.append(
+      heading, category, origin, prompt,
+      makeLabeledParagraph("Your answer", `${item.answer.selectedLetter}. ${escapeHtml(question.choices[item.answer.selectedLetter])}`),
+      makeLabeledParagraph("Correct answer", `${question.correct_answer.letter}. ${escapeHtml(question.correct_answer.text)}`),
+    );
 
     if (question.answer_explanation?.why_correct) {
-      const rationale = document.createElement("p");
+      const rationale = makeLabeledParagraph("Why it works", escapeHtml(question.answer_explanation.why_correct));
       rationale.className = "review-answer";
-      rationale.innerHTML =
-        `<strong>Why it works:</strong> ${escapeHtml(question.answer_explanation.why_correct)}`;
       article.append(rationale);
     }
 
@@ -784,11 +746,7 @@ function renderReviewList(reviewItems) {
 function getSessionReview() {
   return state.session.questions.map((question) => {
     const answer = state.session.answers[question.id];
-    return {
-      question,
-      answer,
-      isCorrect: answer.selectedLetter === question.correct_answer.letter,
-    };
+    return { question, answer, isCorrect: answer.isCorrect };
   });
 }
 
@@ -799,7 +757,10 @@ function selectChoice(letter) {
   }
 
   answerState.selectedLetter = letter;
-  renderQuestion();
+
+  elements.choices.querySelectorAll(".choice").forEach((button) => {
+    button.classList.toggle("selected", button.querySelector(".choice-letter").textContent === letter);
+  });
 }
 
 function getCurrentQuestion() {
@@ -821,9 +782,7 @@ function getCurrentAnswerState() {
 }
 
 function getAllCategories() {
-  return state.bank.study_analysis.study_categories
-    .slice()
-    .sort((left, right) => left.priority_rank - right.priority_rank);
+  return state.sortedCategories;
 }
 
 function getFilteredQuestionsFromSettings() {
@@ -930,6 +889,12 @@ function compareQuestions(left, right) {
   return (left.synthetic_variant_index || 0) - (right.synthetic_variant_index || 0);
 }
 
+function makeLabeledParagraph(label, htmlValue) {
+  const p = document.createElement("p");
+  p.innerHTML = `<strong>${escapeHtml(label)}:</strong> ${htmlValue}`;
+  return p;
+}
+
 function makeTag(text, extraClass = "") {
   const tag = document.createElement("span");
   tag.className = `tag ${extraClass}`.trim();
@@ -966,12 +931,11 @@ function showError(message) {
 }
 
 function shuffle(items) {
-  const copy = items.slice();
-  for (let index = copy.length - 1; index > 0; index -= 1) {
+  for (let index = items.length - 1; index > 0; index -= 1) {
     const swapIndex = Math.floor(Math.random() * (index + 1));
-    [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+    [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
   }
-  return copy;
+  return items;
 }
 
 function escapeHtml(value) {
