@@ -23,3 +23,5 @@ python3 -m http.server 8000
 ## Question bank format
 
 The app reads `sat-results.enriched.json` directly. New questions can be added later as long as they follow the same structure used by the existing `questions` array.
+
+Question objects can also include an `answer_explanation` object with `why_correct`, `why_selected_answer_is_wrong`, and `takeaway` strings for review feedback.

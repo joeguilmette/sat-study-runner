@@ -24,6 +24,7 @@ const elements = {
   availableCount: document.querySelector("#available-count"),
   sessionSize: document.querySelector("#session-size"),
   selectedCategoriesCount: document.querySelector("#selected-categories-count"),
+  selectionHint: document.querySelector("#selection-hint"),
   startSession: document.querySelector("#start-session"),
   selectAllCategories: document.querySelector("#select-all-categories"),
   selectStudyFirst: document.querySelector("#select-study-first"),
@@ -320,11 +321,28 @@ function updateSetupCounts() {
   const available = filtered.length;
   const selectedCategories = state.settings.categoryIds.length;
   const sessionSize = Math.min(available, getRequestedQuestionCount(available));
+  const totalCategories = getAllCategories().length;
+  const questionLabel = sessionSize === 1 ? "question" : "questions";
+  const categoryLabel = selectedCategories === 1 ? "category" : "categories";
 
   elements.availableCount.textContent = String(available);
   elements.sessionSize.textContent = String(sessionSize);
   elements.selectedCategoriesCount.textContent = String(selectedCategories);
   elements.startSession.disabled = available === 0;
+  elements.startSession.textContent = available === 0
+    ? "Adjust filters to start"
+    : `Start ${state.settings.mode} session`;
+
+  if (available === 0) {
+    elements.selectionHint.textContent =
+      "No questions match the current category selection. Expand the focus list to build a session.";
+  } else if (selectedCategories === totalCategories) {
+    elements.selectionHint.textContent =
+      `All categories are active. This run will include ${sessionSize} ${questionLabel}.`;
+  } else {
+    elements.selectionHint.textContent =
+      `${selectedCategories} ${categoryLabel} selected, ${available} matching questions, ${sessionSize} ${questionLabel} in this run.`;
+  }
 
   renderQuestionCountOptions();
 }
@@ -517,6 +535,29 @@ function renderFeedback(question, answerState) {
     elements.feedbackCard.append(originalMiss);
   }
 
+  if (question.answer_explanation?.why_correct) {
+    const whyCorrect = document.createElement("p");
+    whyCorrect.innerHTML =
+      `<strong>Why it works:</strong> ${escapeHtml(question.answer_explanation.why_correct)}`;
+    elements.feedbackCard.append(whyCorrect);
+  }
+
+  if (question.answer_explanation?.why_selected_answer_is_wrong && question.selected_incorrect_answer) {
+    const whyWrong = document.createElement("p");
+    whyWrong.innerHTML =
+      `<strong>Why the original miss fails:</strong> ${escapeHtml(
+        question.answer_explanation.why_selected_answer_is_wrong,
+      )}`;
+    elements.feedbackCard.append(whyWrong);
+  }
+
+  if (question.answer_explanation?.takeaway) {
+    const takeaway = document.createElement("p");
+    takeaway.innerHTML =
+      `<strong>Takeaway:</strong> ${escapeHtml(question.answer_explanation.takeaway)}`;
+    elements.feedbackCard.append(takeaway);
+  }
+
   if (category) {
     const focus = document.createElement("p");
     focus.innerHTML =
@@ -673,6 +714,15 @@ function renderReviewList(reviewItems) {
       )}`;
 
     article.append(heading, category, prompt, selected, correct);
+
+    if (question.answer_explanation?.why_correct) {
+      const rationale = document.createElement("p");
+      rationale.className = "review-answer";
+      rationale.innerHTML =
+        `<strong>Why it works:</strong> ${escapeHtml(question.answer_explanation.why_correct)}`;
+      article.append(rationale);
+    }
+
     fragment.append(article);
   });
 

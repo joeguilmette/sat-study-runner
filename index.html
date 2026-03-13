@@ -9,15 +9,38 @@
 <body>
   <div class="page-shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">SAT Reading and Writing</p>
-        <h1>Study Runner</h1>
-        <p id="bank-summary" class="hero-copy">Loading question bank...</p>
+      <div class="hero-body">
+        <div>
+          <p class="eyebrow">SAT Reading and Writing</p>
+          <h1>Study Runner</h1>
+          <p id="bank-summary" class="hero-copy">Loading question bank...</p>
+        </div>
+
+        <div class="hero-highlights" aria-label="Session workflow highlights">
+          <div class="hero-stat">
+            <span class="hero-stat-label">Focus</span>
+            <strong>Priority-first sessions</strong>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-label">Practice</span>
+            <strong>Immediate answer feedback</strong>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-label">Review</span>
+            <strong>Retry missed questions fast</strong>
+          </div>
+        </div>
       </div>
-      <div class="hero-links">
-        <a class="link-chip" href="./sat-study-priorities.md">Study priorities</a>
-        <a class="link-chip" href="./sat-results.html">Enriched table</a>
-      </div>
+
+      <aside class="hero-sidebar">
+        <p class="hero-note">
+          Build a short, targeted run, then loop missed questions back into the next session while the pattern is still fresh.
+        </p>
+        <div class="hero-links">
+          <a class="link-chip" href="./sat-study-priorities.md">Study priorities</a>
+          <a class="link-chip" href="./sat-results.html">Enriched table</a>
+        </div>
+      </aside>
     </header>
 
     <main class="main-shell">
@@ -37,6 +60,7 @@
           <section class="panel">
             <div class="panel-head">
               <div>
+                <p class="panel-kicker">Configure</p>
                 <h2>Session Setup</h2>
                 <p class="muted">Pick a mode, size, and study focus.</p>
               </div>
@@ -85,14 +109,17 @@
               </div>
             </div>
 
+            <p id="selection-hint" class="summary-caption muted"></p>
+
             <div class="actions-row">
               <button id="start-session" class="button button-primary" type="button">Start session</button>
             </div>
           </section>
 
-          <section class="panel">
+          <section class="panel panel-sticky">
             <div class="panel-head">
               <div>
+                <p class="panel-kicker">Focus</p>
                 <h2>Study Categories</h2>
                 <p class="muted">These come from the analysis you generated.</p>
               </div>
@@ -103,6 +130,7 @@
               </div>
             </div>
 
+            <p class="section-note muted">Keep the list narrow if you want tighter repetition and faster feedback.</p>
             <div id="category-list" class="category-list"></div>
           </section>
         </div>
@@ -125,13 +153,14 @@
             <div id="progress-fill" class="progress-fill"></div>
           </div>
 
-          <div id="question-meta" class="meta-row"></div>
-          <pre id="question-text" class="question-text"></pre>
-          <div id="choices" class="choices"></div>
+          <div class="question-body">
+            <div id="question-meta" class="meta-row"></div>
+            <pre id="question-text" class="question-text"></pre>
+            <div id="choices" class="choices"></div>
+            <div id="feedback-card" class="feedback-card hidden"></div>
+          </div>
 
-          <div id="feedback-card" class="feedback-card hidden"></div>
-
-          <div class="actions-row">
+          <div class="actions-row question-actions">
             <button id="quit-session" class="button button-subtle" type="button">Back to setup</button>
             <button id="primary-action" class="button button-primary" type="button">Check answer</button>
           </div>
@@ -143,6 +172,7 @@
           <section class="panel">
             <div class="panel-head">
               <div>
+                <p class="panel-kicker">Results</p>
                 <h2>Session Results</h2>
                 <p id="results-summary" class="muted"></p>
               </div>
@@ -161,6 +191,7 @@
           <section class="panel">
             <div class="panel-head">
               <div>
+                <p class="panel-kicker">Review</p>
                 <h2>Review</h2>
                 <p class="muted">Missed questions from this run.</p>
               </div>

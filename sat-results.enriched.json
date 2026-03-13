@@ -88,7 +88,12 @@
       "study_priority_rank": 2,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The sentence sets up a paradox: water was necessary for life, but when Earth was covered by oceans it likely hindered the formation of early biomolecules. \"Hampered\" is the only choice that matches that negative cause-and-effect idea.",
+        "why_selected_answer_is_wrong": "\"Imitated\" means copied or mimicked, which does not make sense with \"the formation of proteins and other biomolecules.\" The sentence needs a verb meaning interfered with, not resembled.",
+        "takeaway": "Use contrast clues like \"although\" and the stated paradox to predict whether the blank should be positive or negative before reading the options."
+      }
     },
     {
       "id": "m1-q4",
@@ -122,7 +127,12 @@
       "study_priority_rank": 2,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The next clause says the mural may not sound ambitious at first, even though it is actually complex and demanding. \"Unassuming\" means modest or not immediately impressive, which fits that contrast.",
+        "why_selected_answer_is_wrong": "\"Incongruous\" means out of place or not in harmony. The issue is not that the mural sounds mismatched; it is that a casual description makes it seem simpler and less ambitious than it really is.",
+        "takeaway": "When a sentence pivots with \"but in fact,\" choose the word that best describes the first, mistaken impression."
+      }
     },
     {
       "id": "m1-q5",
@@ -156,7 +166,12 @@
       "study_priority_rank": 3,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The passage first tells what happened when wolves were eradicated, then explains that scientists recognized the wolves' ecological importance and reintroduced them. Choice B captures that two-part structure without adding motives the text never gives.",
+        "why_selected_answer_is_wrong": "Choice D invents an explanation for why Yellowstone allowed eradication, but the passage never gives one. It only states that the wolves were eradicated and later restored because they were essential to the food chain.",
+        "takeaway": "For structure questions, summarize each sentence's job in order and reject choices that add causes, motives, or judgments the passage does not state."
+      }
     },
     {
       "id": "m1-q6",
@@ -190,7 +205,12 @@
       "study_priority_rank": 3,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The underlined comparison to how awake, sighted people track real objects gives LaBerge's team a concrete point of reference. That comparable real-world behavior helps support the conclusion that dream objects are being perceived rather than merely imagined.",
+        "why_selected_answer_is_wrong": "Choice A reverses the logic of the paragraph. The comparison is evidence for the team's conclusion, not evidence that undermines an initial hypothesis.",
+        "takeaway": "On function questions, ask what the underlined part is doing right there: evidence, comparison, qualification, or implication."
+      }
     },
     {
       "id": "m1-q7",
@@ -224,7 +244,12 @@
       "study_priority_rank": 7,
       "study_priority_band": "if time remains",
       "study_estimated_roi": "medium",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Text 1 suggests backlash comes from the artwork's norm-defying nature, but Text 2 says negative reactions also depend on whether the piece is effectively integrated into its surroundings. That means the critics in Text 2 would argue that backlash is not caused only by the work's inherent qualities.",
+        "why_selected_answer_is_wrong": "Choice C shifts the issue to whether bland, norm-reinforcing art placates people. Text 2 does not discuss that claim; it focuses on context and presentation as additional causes of backlash.",
+        "takeaway": "In paired-text questions, isolate the exact point of disagreement in one sentence before testing the answer choices."
+      }
     },
     {
       "id": "m1-q13",
@@ -258,7 +283,12 @@
       "study_priority_rank": 4,
       "study_priority_band": "study next",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The table shows Navajo-Churro inner fibers range from 10 to 35 microns, so at their softest they are 10 microns wide. That is finer than mouflon inner fibers at 15 microns and finer than Merino inner fibers at 17 to 21 microns, so choice A is fully supported.",
+        "why_selected_answer_is_wrong": "Choice C says domestication increased the minimum inner-fiber diameter in both domestic breeds, but Navajo-Churro's minimum is 10, which is lower than the mouflon's 15. That directly contradicts the table.",
+        "takeaway": "For table questions, check every comparative word in an answer against the numbers one by one, especially minimums, maximums, and exceptions."
+      }
     },
     {
       "id": "m1-q17",
@@ -292,7 +322,12 @@
       "study_priority_rank": 1,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The phrase \"ratified in 1804\" is a nonessential modifier interrupting the main clause \"The 12th Amendment ... separated the elections.\" It needs a comma after 1804 to close that interrupting phrase.",
+        "why_selected_answer_is_wrong": "Choice D leaves the modifier without a closing comma, so the sentence is not punctuated correctly. The year is not part of the core subject.",
+        "takeaway": "When an interrupting phrase can be removed without changing the sentence's core grammar, it should usually be set off with matching punctuation on both sides."
+      }
     },
     {
       "id": "m1-q23",
@@ -326,7 +361,12 @@
       "study_priority_rank": 5,
       "study_priority_band": "study next",
       "study_estimated_roi": "medium-high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The first sentence gives an explanation for the barnacles' movement: passive displacement by water currents. The next sentence reports movement against the water flow, so it weakens that explanation rather than contradicting the movement itself.",
+        "why_selected_answer_is_wrong": "Choice A points to the wrong noun. The new evidence is not contrary to the phenomenon of shifting position; it is contrary to the explanation that currents caused the shifting.",
+        "takeaway": "For transitions, identify whether the next sentence supports or undercuts the previous claim, and be precise about which claim it is responding to."
+      }
     },
     {
       "id": "m1-q27",
@@ -360,7 +400,12 @@
       "study_priority_rank": 5,
       "study_priority_band": "study next",
       "study_estimated_roi": "medium-high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The goal is to explain the sculpture's specific historical context, so the best answer should connect the work to a historical event and time frame. Choice C does that by linking the 1867 sculpture to the 1863 Emancipation Proclamation.",
+        "why_selected_answer_is_wrong": "Choice A gives interpretation and visual description, but it does not place the sculpture in its historical moment. The question asks for context, not praise or imagery.",
+        "takeaway": "In notes-to-sentence questions, match the answer to the stated writing goal, not just to facts that are true."
+      }
     },
     {
       "id": "m2-q1",
@@ -394,7 +439,12 @@
       "study_priority_rank": 2,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The new archaeological evidence shows the old timeline was wrong by at least 1,000 years. \"Contradicted\" is the precise word for evidence that conflicts with and overturns an earlier view.",
+        "why_selected_answer_is_wrong": "\"Investigated\" only means examined or studied. The sentence needs a word showing that the evidence conflicts with the old claim, not merely that scholars looked into it.",
+        "takeaway": "When new evidence changes an earlier belief, look for a verb that captures the relationship between the evidence and the prior claim."
+      }
     },
     {
       "id": "m2-q2",
@@ -428,7 +478,12 @@
       "study_priority_rank": 2,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The passage says beads made from these shells were found in many MSA sites across western North Africa. \"Ubiquity\" means widespread presence, which matches that description exactly.",
+        "why_selected_answer_is_wrong": "\"Heterogeneity\" means diversity or variety, but the sentence is about how common the artifacts were across many sites, not how different they were from one another.",
+        "takeaway": "A strong vocabulary answer should fit both the surrounding logic and the exact noun being described."
+      }
     },
     {
       "id": "m2-q3",
@@ -462,7 +517,12 @@
       "study_priority_rank": 2,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The examples show that black swan family arrangements are flexible: successful pairs foster others' cygnets, and male-male pairs can also rear young. \"Elasticity\" best captures that adaptability or range.",
+        "why_selected_answer_is_wrong": "\"Affection\" points to emotion, but the passage is describing variation in family structure and caregiving patterns, not how loving the swans are.",
+        "takeaway": "If the examples show range or flexibility, choose the option that captures structure and pattern rather than tone or feeling."
+      }
     },
     {
       "id": "m2-q5",
@@ -497,7 +557,12 @@
       "study_priority_rank": 3,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "The passage centers on Adam's considerate offer to stay on the ship and be ready to follow Richard's plans, then shows that this wins Richard's heart. Choice B captures that Adam's flexibility improves their relationship.",
+        "why_selected_answer_is_wrong": "Choice D depends on a contrast the text never gives. Richard's first impression is not described as wary; the meeting is said to have begun auspiciously and proceeded well.",
+        "takeaway": "For main-purpose questions, focus on the change the passage highlights, not on a dramatic contrast that is never actually stated."
+      }
     },
     {
       "id": "m2-q6",
@@ -532,7 +597,12 @@
       "study_priority_rank": 3,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Camillo says he might help ease the Sicilian king's sorrows, then immediately checks himself with \"or I o'erween,\" meaning he may be presuming too much. That aside shows he knows this possible benefit is uncertain or speculative.",
+        "why_selected_answer_is_wrong": "Choice A shifts the focus to Polixenes's feelings, but the underlined aside is about Camillo's own doubt regarding how useful he would be to the king of Sicily.",
+        "takeaway": "In older literary passages, brief self-corrections often signal qualification: the speaker is softening or limiting what he just claimed."
+      }
     },
     {
       "id": "m2-q7",
@@ -568,7 +638,12 @@
       "study_priority_rank": 7,
       "study_priority_band": "if time remains",
       "study_estimated_roi": "medium",
-      "study_time_to_improve": "medium"
+      "study_time_to_improve": "medium",
+      "answer_explanation": {
+        "why_correct": "Anbar et al. treat the Mo spike as evidence of an oxygen increase at 2.5 Ga, while Slotznick et al. argue the oxidative weathering could have happened much later. So the real disagreement is whether the Mo increase indicates an oxygen increase dating to the same time as that rock layer.",
+        "why_selected_answer_is_wrong": "Choice A asks about oxygen levels before 2.5 Ga, which neither text addresses. The dispute is about the timing of the oxygen-related weathering, not about an earlier baseline.",
+        "takeaway": "Turn paired-text disagreements into a yes-or-no timing or causation question; the right answer is the one the two texts would answer differently."
+      }
     },
     {
       "id": "m2-q8",
@@ -602,7 +677,12 @@
       "study_priority_rank": 6,
       "study_priority_band": "study next",
       "study_estimated_roi": "medium",
-      "study_time_to_improve": "medium-high"
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The narrator describes Sir Winston Day as looking like a statesman, but then sarcastically questions what he actually achieved in fifty years of service. Choice A captures that contrast between impressive appearance and doubtful accomplishment.",
+        "why_selected_answer_is_wrong": "Choice C treats \"state secrets\" literally, but the passage uses that phrase sarcastically to say the memoirs do not really clarify his achievements. The problem is vagueness, not classified heroism.",
+        "takeaway": "When the narrator is ironic, prefer the answer that matches the attitude beneath the praise rather than the praise on the surface."
+      }
     },
     {
       "id": "m2-q9",
@@ -636,7 +716,12 @@
       "study_priority_rank": 6,
       "study_priority_band": "study next",
       "study_estimated_roi": "medium",
-      "study_time_to_improve": "medium-high"
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The passage explains that spike waves form when opposing traveling waves intersect and that they can exceed the height limits predicted from ordinary traveling-wave breaking. Choice D captures both the setup and the key conclusion.",
+        "why_selected_answer_is_wrong": "Choice A misstates the study by saying jet stability and cavity shape influence breaking in traveling waves. The passage says those factors help explain spike-wave breaking, which is the special case being studied.",
+        "takeaway": "For main-idea questions, make sure the answer stays on the passage's actual subject rather than drifting back to background information."
+      }
     },
     {
       "id": "m2-q11",
@@ -671,7 +756,12 @@
       "study_priority_rank": 6,
       "study_priority_band": "study next",
       "study_estimated_roi": "medium",
-      "study_time_to_improve": "medium-high"
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "Walsh found that social features make users conscious of how others may judge their listening activity, and that this changes what they do. Choice A directly shows that kind of self-management: the user picks music based on followers' reactions rather than personal preference.",
+        "why_selected_answer_is_wrong": "Choice B is about an algorithm producing repetitive recommendations. It does not involve social perception or users changing their behavior because other people can see it.",
+        "takeaway": "To illustrate a research finding, pick the example that mirrors both parts of the finding, not just one related topic from the passage."
+      }
     },
     {
       "id": "m2-q12",
@@ -705,7 +795,12 @@
       "study_priority_rank": 4,
       "study_priority_band": "study next",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The table lists TRAPPIST-1e's orbital period as 6.1 days. The passage also states that each planet's rotational period equals its orbital period, so 6.1 days for both is the only fully supported completion.",
+        "why_selected_answer_is_wrong": "Choice A uses TRAPPIST-1b's orbital period, 1.51 days, instead of TRAPPIST-1e's. It answers the example with the wrong planet's data.",
+        "takeaway": "In table questions, confirm that the row, column, and stated relationship all match before choosing."
+      }
     },
     {
       "id": "m2-q13",
@@ -739,7 +834,12 @@
       "study_priority_rank": 6,
       "study_priority_band": "study next",
       "study_estimated_roi": "medium",
-      "study_time_to_improve": "medium-high"
+      "study_time_to_improve": "medium-high",
+      "answer_explanation": {
+        "why_correct": "The study found similar correlations between personality-trait patterns and Western-music preference patterns across many countries. That supports the inference that similar personality profiles tend to align with similar Western music preferences across cultures.",
+        "why_selected_answer_is_wrong": "Choice C adds an unsupported comparison to what researchers had previously assumed. The passage says the correlations were similar across cultures, but it does not discuss prior assumptions about how much variation to expect.",
+        "takeaway": "When completing an inference, stay with the claim the evidence directly supports and avoid answers that add extra comparison points or background not mentioned."
+      }
     },
     {
       "id": "m2-q15",
@@ -773,7 +873,12 @@
       "study_priority_rank": 1,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "The opening modifier \"Established in 1936 by African American novelist Richard Wright\" must describe the noun that comes right after it. Choice A places \"the South Side Writers Group\" there, creating a grammatical sentence, and the semicolon correctly joins the next independent clause.",
+        "why_selected_answer_is_wrong": "Choice C creates a dangling modifier because it makes \"writers\" seem as though they were established in 1936 by Richard Wright. The modifier needs to attach to the group, not to the people sharing ideas.",
+        "takeaway": "After an opening modifier, check whether the very next noun is the thing being described."
+      }
     },
     {
       "id": "m2-q19",
@@ -807,7 +912,12 @@
       "study_priority_rank": 1,
       "study_priority_band": "study first",
       "study_estimated_roi": "high",
-      "study_time_to_improve": "low"
+      "study_time_to_improve": "low",
+      "answer_explanation": {
+        "why_correct": "In a restrictive professional title before a name, no commas are used: \"chemistry professor Yugang Sun.\" That full phrase is the compound subject with \"and his colleagues,\" so choice A is the standard and grammatical form.",
+        "why_selected_answer_is_wrong": "Choice B incorrectly inserts a comma before \"and his colleagues,\" splitting the subject from the rest of the sentence. It also treats the title-name unit as though it needed punctuation when it does not.",
+        "takeaway": "Do not put commas between a restrictive title and a person's name, and do not separate a compound subject from its verb with a comma."
+      }
     }
   ],
   "study_analysis": {
